@@ -166,7 +166,7 @@ var DataStates = [
         nombreEstrategia: "No disponible",
         actividadesPresenciales: "La Secretaría de Educación del Estado de Durango (SEED), todavía no tiene definido si el regreso a clases será presencial, virtual o híbrido, primero podría darse a conocer el calendario escolar.",
         aforosFiltrosSanitarios: "No disponible",
-        color: "rgba(0, 24, 75, 1)"
+        color: "rgba(255, 165, 0, 1)"
     },
     {
         id: "MX-ZAC",
@@ -181,7 +181,7 @@ var DataStates = [
         nombreEstrategia: "Sin información",
         actividadesPresenciales: "Sin información",
         aforosFiltrosSanitarios: "Aún no se puede fijar la postura, hasta conocer las condiciones del semáforo epidemiológico y el lineamiento federal. Hicieron una encuesta a padres de familia, de cada 10, 7 están en contra del regreso y 3 a favor. LA UAZ hará encuesta de movilidad y convivencia, “ya se tienen claros los protocolos de seguridad, de sanitización para todos los espacios, solo veremos si será escalonado, de acuerdo a los espacios o por nivel educativo, sin embargo, la decisión se tomará en agosto",
-        color: "rgba(0, 24, 75, 1)"
+        color: "rgba(255, 165, 0, 1)"
     },
     {
         id: "MX-SLP",
@@ -196,7 +196,7 @@ var DataStates = [
         nombreEstrategia: "Sin información",
         actividadesPresenciales: "La autoridad educativa federal dará a conocer información para el regreso a clases y en reunión de CONAEDU",
         aforosFiltrosSanitarios: "No habrá regreso a clases presenciales durante el mes de agosto, además recordó que para el regreso a clases presenciales, cuando existan las condiciones sanitarias, se aplicarán nueve intervenciones o medidas para asegurar el bienestar de la comunidad escolar. <br><br> Hubo una reapertura del 15% de escuelas en junio. El saldo fueron dos casos de contagios en docentes y nueve alumnos",
-        color: "rgba(0, 24, 75, 1)"
+        color: "rgba(255, 165, 0, 1)"
     },
     {
         id: "MX-NAY",
@@ -314,7 +314,7 @@ var DataStates = [
         docentesVacunados: "check",
         alumnosVacunados: "close",
         nombreEstrategia: "Escuela abierta",
-        actividadesPresenciales: "La asistencia sera voluntaria  para alumnos, docentes  y personal administratvio, de acuerdo al semáforo epidemiológico. se priorizará a los niños, niñas y adolescentes que, durante el ciclo escolar han tenido una comunicación intermitente y una participación baja en actividades propuestas por el docente, asi como los que han tenido una participación prácticamente inexistente. Aesta modalidad se le denomina ''Escuela Abierta''.<br><br> Se priorizará a atención de alumnos en riesgo de reprobar o abandonar, alumnas y alomnos en condiciiones vulnerables, que presenten dificultades de comunicación , deberán se atendidos de manera prioritaria. <br><br> Las actividades a realizar<br> 1. Jornadas contra el rezago escolar y valoración diagn´stic<br> 2.Asesoría pedagógic<br> 3.Apoyo psicoemociona<br> 4.Acciones de limpieza y sanitarias en el plantel educativ<br> 5. Entrega de libros de texto, equipo y material didáctic<br> 6. Trámites escolare<br> 7.Utilización de equipos y servicio<br> 8. Uso de infraestructura escolar (laboratorios, talleres<br> 9. Acciones de construcción y mantenimeint<br> 10. Sesiones de órganos colegiados del plantel educativo <br><br> ** aunque aun no hay una postura definitiva, según los medios",
+        actividadesPresenciales: "La asistencia sera voluntaria  para alumnos, docentes  y personal administratvio, de acuerdo al semáforo epidemiológico. se priorizará a los niños, niñas y adolescentes que, durante el ciclo escolar han tenido una comunicación intermitente y una participación baja en actividades propuestas por el docente, asi como los que han tenido una participación prácticamente inexistente. Aesta modalidad se le denomina ''Escuela Abierta''.<br><br> Se priorizará a atención de alumnos en riesgo de reprobar o abandonar, alumnas y alomnos en condiciiones vulnerables, que presenten dificultades de comunicación , deberán se atendidos de manera prioritaria. <br><br> Las actividades a realizar<br> 1. Jornadas contra el rezago escolar y valoración diagnóstica. <br> 2.Asesoría pedagógica. <br> 3.Apoyo psicoemocional. <br> 4.Acciones de limpieza y sanitarias en el plantel educativa. <br> 5. Entrega de libros de texto, equipo y material didáctico. <br> 6. Trámites escolares. <br> 7.Utilización de equipos y servicios. <br> 8. Uso de infraestructura escolar (laboratorios, talleres).<br> 9. Acciones de construcción y mantenimeinto. <br> 10. Sesiones de órganos colegiados del plantel educativo. <br><br> ** aunque aun no hay una postura definitiva, según los medios",
         aforosFiltrosSanitarios: "Protocolo para prevenir contagios duranre el regreso prograsivo a clases presenciales en escuelas públicas y privadas de educación básica, media superior y superior , publciado el 27 de julio de 2021, en el cual se detallan las estregias para evitar contagios: Uso obligatorio del cubrebocas, puerta abiertas y evitar contacto con picaportes, filtro de hogar, filtro escolar , filtro de aula, capaictaciones para personal y alumnos, limpieza a profundidad de las superficies, espacios y materiales, clausura de bebederos, reorganizar descansos y actividades fisicas, se promoveran clases en espacios abiertos, lavado de mano, evitar compartir alimentos, promover el estornudo de etiqueta (cubrir con el angulo interno del codo), el uniforme escolar no es obligatorio, se limita el aforo de los eventos  especiales, las actividades de servicios escolares serán por cita, <ul><li>Se recabaran cartas de corresponsabilidad</li> <li>maximizar sana distancia y aprovechamiento de espacios abiertos y el uso permanente e irrestricto de cubrebocas</li> <li>lpimite del 40% diario de la población escolar</li> <li> No mas de 9 alumnas y alumnos y un docente por aula de educación primaria y telesecundaria</li> <li>No mas de 12 alumnos y alumnas y un docente por aula en escuelas secundarias generale sy técnicas</li> <li>No se permite en este periodo ningún tipkde expendio de alimentos ni se realizaran clases de educación fisica o artística</li> </ul>",
         color: "rgba(0, 24, 75, 1)"
     },
@@ -465,7 +465,7 @@ var DataStates = [
         alumnosVacunados: "close",
         nombreEstrategia: "No disponibles",
         actividadesPresenciales: "No disponibles",
-        aforosFiltrosSanitarios: "que cada municipio de Chiapas responde a distintas realidades, aunque  en todas se aplicarán los protocolos que correspondan para que con cuidados  se continue con el servicio educativo.  Con esa finalidad se conformarán  comités de salud en cada escuela, el  uso obligatorio del cubre bocas, la sana distancia, suspensión de cualquier  tipo de ceremonias y reuniones masivas. Asimismo,  se garantizará el abasto de agua y jabón, el uso del gel anti bacterial y la revisión  de temperatura en cada plantel, entre otras acciones",
+        aforosFiltrosSanitarios: "Cada municipio de Chiapas responde a distintas realidades, aunque  en todas se aplicarán los protocolos que correspondan para que con cuidados  se continue con el servicio educativo.  Con esa finalidad se conformarán  comités de salud en cada escuela, el  uso obligatorio del cubre bocas, la sana distancia, suspensión de cualquier  tipo de ceremonias y reuniones masivas. Asimismo,  se garantizará el abasto de agua y jabón, el uso del gel anti bacterial y la revisión  de temperatura en cada plantel, entre otras acciones",
         color: "rgba(0, 24, 75, 1)"
     },  
     {
