@@ -234,6 +234,51 @@ var DataStates = [
         regresoActividadesPresenciales: "Si",
         fechaRetorno: "7 Junio de 2021",
         tipoModelo: "Híbrido",
+        reincorporacionVoluntaria: "check",
+        reincorporacionGradual: "check",
+        docentesVacunados: "check",
+        alumnosVacunados: "close",
+        nombreEstrategia: "Me sumo a un regreso seguro",
+        actividadesPresenciales: "La atención a alumnas y alumnos está centrada en el aspecto socioemocional, así como en la regularización académica y la adquisición de aprendizajes esperados. Se van integrndo escuelas de forma gradual por semana.",
+        aforosFiltrosSanitarios: "Se implememtaron 9 Intervenciones en torno al cuidado de la salud: Activación de comités d eparticipación de salud, garantizar acceso a agua y jabón, cubrebocas oblugatorio, sana distancia, uso de espacios abiertos, suspensión de ceremonias o reuniones, apoyo socioemocional y detección temprana. Asimismo, se aplican 3 filtros sanitarios.",
+        color: "rgba(0, 24, 75, 1)"
+    },
+    {
+        id: "MX-GUA",
+        name: "Guanajuato",
+        regresoActividadesPresenciales: "Si",
+        fechaRetorno: "30 de agosto",
+        tipoModelo: "Híbrido",
+        reincorporacionVoluntaria: "check",
+        reincorporacionGradual: "check",
+        docentesVacunados: "check",
+        alumnosVacunados: "close",
+        nombreEstrategia: "Guanajuato educado con R de Reactivación. <br> Regreso a las aulas.",
+        actividadesPresenciales: "El estado implemento ejercicio piloto ''regreso a las aulas'' , bajo esta experiencia se prevee continuar con un retorno presencial el proximo ciclo",
+        aforosFiltrosSanitarios: "Cuenta con protocolos y guias de salud para el regreso a la escuela (Básica, Media superior y superior), las cuales incluyen: uso obligatorio de cubrebocas, 4 filtros sanitarios , sana distancia, Limpieza de areas y mobiliario, grupos reducidos",
+        color: "rgba(0, 24, 75, 1)"
+    },
+    {
+        id: "MX-QUE",
+        name: "Querétaro",
+        regresoActividadesPresenciales: "Si",
+        fechaRetorno: "30 agosto en EB y EMS",
+        tipoModelo: "Normal",
+        reincorporacionVoluntaria: "check",
+        reincorporacionGradual: "check",
+        docentesVacunados: "check",
+        alumnosVacunados: "close",
+        nombreEstrategia: "Programa Especial de Regreso a Clases",
+        actividadesPresenciales: "La UAQ no regresará en presencial de manera voluntaria, a través de una convocatoria.",
+        aforosFiltrosSanitarios: "Sin información",
+        color: "rgba(0, 24, 75, 1)"
+    },
+    {
+        id: "MX-HID",
+        name: "Hidalgo",
+        regresoActividadesPresenciales: "",
+        fechaRetorno: "",
+        tipoModelo: "",
         reincorporacionVoluntaria: "",
         reincorporacionGradual: "",
         docentesVacunados: "",
@@ -242,18 +287,6 @@ var DataStates = [
         actividadesPresenciales: "",
         aforosFiltrosSanitarios: "",
         color: "rgba(0, 24, 75, 1)"
-    },
-    {
-        id: "MX-GUA",
-        name: "Guanajuato"
-    },
-    {
-        id: "MX-QUE",
-        name: "Querétaro"
-    },
-    {
-        id: "MX-HID",
-        name: "Hidalgo"
     },
     {
         id: "MX-COL",
