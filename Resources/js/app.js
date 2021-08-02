@@ -74,7 +74,7 @@ var DataStates = [
         docentesVacunados: "check",
         alumnosVacunados: "close",
         nombreEstrategia: "Sin información",
-        actividadesPresenciales: "",
+        actividadesPresenciales: "Sin información",
         aforosFiltrosSanitarios: "Ante el aumento de contagios y el registro de estas variantes del coronavirus, la gobernadora Pavlovich instó a seguir con las acciones y programas de prevención, para seguir con las medidas y protocolos sanitarios rigurosos",
         color: "rgba(200, 200, 200, 1)"
     },
