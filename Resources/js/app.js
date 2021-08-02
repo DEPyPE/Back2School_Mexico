@@ -36,7 +36,7 @@ var DataStates = [
         docentesVacunados: "info",
         alumnosVacunados: "info",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "Solo se han emitido lineamientos para trabajadores de la Secretaría estataal y su incorporación a labores presenciales.",
+        actividadesPresenciales: "Solo se han emitido lineamientos para trabajadores de la Secretaría estatal y su incorporación a labores presenciales.",
         aforosFiltrosSanitarios: "No disponible",
         color: "rgba(255, 165, 0, 1)"
     },
@@ -60,7 +60,7 @@ var DataStates = [
                                     "<li> Corresponsabilidad. </li>"+
                                     "<li> Participación de las y los estudiantes. </li>"+
                                  "</ol>",
-        aforosFiltrosSanitarios: "Se ciontempla la asistencia de 10 personas por aula y con distancia de 1.8m,  así como las medidas sanitarias incentivadas desde el inicio de la pandemia y sanitización de los espacios escolares.",
+        aforosFiltrosSanitarios: "Se contempla la asistencia de 10 personas por aula y con distancia de 1.8m,  así como las medidas sanitarias incentivadas desde el inicio de la pandemia y sanitización de los espacios escolares.",
         color: "rgba(0, 24, 75, 1)"
     },
     {
@@ -119,7 +119,7 @@ var DataStates = [
         docentesVacunados: "check",
         alumnosVacunados: "close",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "<br>Comunicados oficiales indican encuentrarse listos para este regreso a clases, y la modalidad dependerá del comportamiento del semáforo ante el Covid-19 y las indicaciones que emita la Secretaría de Salud. Indican iniciar el ciclo escolar el 30 de agosto, sin embargo no han definido la  modalidad. <br><br> El comunicado oficial (17 de junio de 2021) de la Cooridnación general de comunicación social de NL, indica que la reactivación educativa en colegios y escuelas de 25 municipios rurales de NL. ''No es regreso a clases (presenciales), es regreso a actividades escolares para que el maestro vaya adaptandose, vea que su escuela está en condiciones'' <br><br>",
+        actividadesPresenciales: "<br>Comunicados oficiales indican encontrarse listos para este regreso a clases, y la modalidad dependerá del comportamiento del semáforo ante el Covid-19 y las indicaciones que emita la Secretaría de Salud. Indican iniciar el ciclo escolar el 30 de agosto, sin embargo no han definido la  modalidad. <br><br> El comunicado oficial (17 de junio de 2021) de la Cooridnación general de comunicación social de NL, indica que la reactivación educativa en colegios y escuelas de 25 municipios rurales de NL. ''No es regreso a clases (presenciales), es regreso a actividades escolares para que el maestro vaya adaptandose, vea que su escuela está en condiciones'' <br><br>",
         aforosFiltrosSanitarios: "La asistencia será de forma híbrida, en el que las aulas estarán a un 30% de su capacidad y los alumnos pueden seguir las clases a distancia.",
         color: "rgba(255, 165, 0, 1)"
     },
@@ -225,7 +225,7 @@ var DataStates = [
         alumnosVacunados: "close",
         nombreEstrategia: "Modelo hibrido y opcional de regreso a clases-Regreso a clases presenciales",
         actividadesPresenciales: "Gobierno estatal anunció que el regreso a las aulas en educación básica será el próximo 30 de agosto, a través de un modelo híbrido y opcional para las familias, que permitirá tener clases presenciales, mientras que en educación media superior y superior se regresará a distancia en agosto y en septiembre de manera presencial; la Universidad de Guadalajara comenzará su ciclo escolar 2021-B de forma virtual el 10 de agosto y será a finales de este mes cuando analice la posibilidad de iniciar la fase presencial el 15 de septiembre. <br><br>El regreso a clases será presencial, pero las familias de los estudiantes decidirán si envían o no a sus hijas o hijos a la escuela  <br>Jalisco solicitará a la federación reforzar la vacunación en el AMG en jóvenes de 15 a 30 años, quienes forman parte de la educación media y media superior. <br><br>Por otro lado, indican estar sujetos al semaforo epidemiológico",
-        aforosFiltrosSanitarios: "Elas principales acciones son el uso del cubrebocas es obligatorio para todos los niveles y sana distancia. <br> <br> Por otro lado, se emiten protocolos detallados para todos los niveles y actividades: <br> <br> Protocolo de acción ante COVID-19 para Grupos de Seguimiento Académico, Trámites presenciales y Entrega de materiales educativos aplicable a Educación Básica, Media Superior y Superior Docente <br> <br> Protocolo de actuación ante COVID-19 Sector Educativo para Actos Académicos Presenciales en escuelas de Educación Básica de la Secretaría de Educación del Estado de Jalisco. <br> <br> Protocolo de acción ante COVID-19 Para centros de formación para el trabajo, educación continua y academias. <br> <br> Protocolo de actuación ante COVID-19 Sector Educativo para la realización de exámenes presenciales del Sistema de Preparatoria Abierta. <br> <br> Protocolo de actuación ante COVID-19 Sector Educativo para la atención de actividades esenciales en Educación Media Superior. <br> <br> Protocolo de Acción ante COVID-19 para realizar Educación Física en los planteles escolares",
+        aforosFiltrosSanitarios: "Las principales acciones son el uso del cubrebocas es obligatorio para todos los niveles y sana distancia. <br> <br> Por otro lado, se emiten protocolos detallados para todos los niveles y actividades: <br> <br> Protocolo de acción ante COVID-19 para Grupos de Seguimiento Académico, Trámites presenciales y Entrega de materiales educativos aplicable a Educación Básica, Media Superior y Superior Docente <br> <br> Protocolo de actuación ante COVID-19 Sector Educativo para Actos Académicos Presenciales en escuelas de Educación Básica de la Secretaría de Educación del Estado de Jalisco. <br> <br> Protocolo de acción ante COVID-19 Para centros de formación para el trabajo, educación continua y academias. <br> <br> Protocolo de actuación ante COVID-19 Sector Educativo para la realización de exámenes presenciales del Sistema de Preparatoria Abierta. <br> <br> Protocolo de actuación ante COVID-19 Sector Educativo para la atención de actividades esenciales en Educación Media Superior. <br> <br> Protocolo de Acción ante COVID-19 para realizar Educación Física en los planteles escolares",
         color: "rgba(0, 24, 75, 1)"
     },
     {
