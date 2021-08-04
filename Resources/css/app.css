@@ -106,17 +106,17 @@ td, th {
     font-size: 22px;
 }
 
-.icon-color-check, .icon-color-close, .icon-color-info{
+.icon-color-check_circle, .icon-color-cancel, .icon-color-info{
     padding-top: 0px;
     padding-right: 8px;
-    font-size: 22px !important;
+    font-size: 40px !important;
 }
 
-.icon-color-check{
+.icon-color-check_circle{
     color: green;
 }
 
-.icon-color-close{
+.icon-color-cancel{
     color: red;
 }
 
@@ -130,10 +130,12 @@ td, th {
     margin-bottom: 0;
 }
 
-#ShowCountryInformation{
-    width: 50% !important;
+#ShowStateInformation{
+    width: 70% !important;
+    height: 80% !important;
+    max-height: 80% !important;
     z-index: 100;
-    top: 30px;
+    top: 50px !important;
 }
 
 .title-country-table{
@@ -141,8 +143,13 @@ td, th {
 }
 
 .modal{
-    background-color: rgba(255, 255, 255, 0.9) !important;
+/*    background: linear-gradient(rgba(0, 24, 75, 1) 0%, rgba(0, 24, 75, 1) 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important; */
     border-radius: 10px !important;
+}
+
+.country-name{
+    font-weight: bold !important;
+    color: white !important;
 }
 
 .close-modal-icon{
@@ -156,6 +163,103 @@ td, th {
     margin: 0 !important;
     font-size: 20px;
 }
+
+/* Tamaño y posición de letra de las tarjetas */
+
+.title-init-date{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.title-type-model{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.title-strategy-name{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.title-position{
+    vertical-align: top !important;
+}
+
+.title-disposiciones{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.title-strategy, .title-references{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+/* ------------------------------- */
+
+/* Margenes de las tarjetas internas */
+
+.row-1{
+    margin-bottom: 0 !important;
+}
+
+.row-2{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.row-3{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.title-reincorporation-voluntary, .title-reincorporation-gradual, 
+.title-vaccune-proffesors{
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.card-reincorporation-voluntary-content, .card-reincorporation-gradual-content, 
+.card-vaccune-proffesors-content{
+    padding: 10px !important;
+    height: 50px !important;
+}
+
+.card-disposiciones-content, .card-strategy-content, .card-references-content{
+    padding: 8px 10px 10px 25px !important;
+}
+
+.card-date-content, .card-type-model-content, .card-strategy-name-content{
+    padding: 0px 10px 10px 25px !important;
+}
+
+.card-reincorporation-voluntary, .card-reincorporation-gradual, 
+.card-vaccune-proffesors{
+    margin-bottom: 0px !important;
+}
+
+.card-disposiciones, .card-references, .card-strategy{
+    height: 165px !important;
+}
+
+.card-date-content, .card-type-model-content, .card-strategy-name-content{
+    padding: 5px 10px 10px 15px !important;
+}
+
+.card-disposiciones, .card-strategy, .card-references, .card-strategy-name{
+    overflow-y: scroll !important;
+}
+
+.card-date, .card-type-model, .card-strategy-name{
+    height: 82px !important;
+}
+
+.title-init-date, .title-type-model, .title-strategy-name,
+.title-disposiciones, .title-references, .title-strategy{
+    
+}
+
+/* ------------------------------- */
 
 /* Fecha y hora de actualización */
 .date-hour-last-update{

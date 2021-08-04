@@ -37,82 +37,85 @@
 
 		<!-- MODAL SI REGRESAN -->
 		<div id="ShowStateInformation" class="modal">
-			<a class="btn-floating btn-small waves-effect waves-black red close-modal-icon modal-close"><i class="material-icons">close</i></a>
+			<a class="btn-floating btn-big waves-effect waves-black red close-modal-icon modal-close"><i class="material-icons">close</i></a>
 
 			<div class="modal-content">
-				<h4 class="country-name"></h4>
+				<h3 class="country-name"></h3>
 
-				<table class="table-information-per-state">
-					<tbody>
-						<tr>
-							<td><strong>Fecha de regreso a clases:</strong></td>
-							<td class="fechaRetorno">Septiembre de 2020</td>
-							<td><strong>Modelo:</strong></td>
-							<td class="tipoModelo">Normal</td>
-						</tr>
-						<tr>
-							<td>
-								<div class='label_countries_check'>
-									<div class="reincorporacionVoluntaria"></div>
-									<div class='check-value-country'> Reincorporación voluntaria</div>
-								</div>
-							</td>
-
-							<td>
-								<div class='label_countries_check'>
-									<div class="reincorporacionGradual"></div>
-									<div class='check-value-country'> Reincorporación gradual</div>
-								</div>
-							</td>
-
-							<td>
-								<div class='label_countries_check'>
-									<div class="docentesVacunados"></div>
-									<div class='check-value-country'> Docentes vacunados</div>
-								</div>
-							</td>
-
-							<td>
-								<div class='label_countries_check'>
-									<div class="alumnosVacunados"></div>
-									<div class='check-value-country'> Alumnos vacunados</div>
-								</div>
-							</td>
-
-						</tr>
-						<tr>
-							<td><strong>Nombre de la estrategia:</strong></td>
-							<td colspan='3' class="nombreEstrategia">No disponible</td>
-						</tr>
-						<tr>
-							<td><strong>Actividades presenciales</strong></td>
-							<td colspan='3' class="actividadesPresenciales"> </td>
-						</tr>
-						<tr>
-							<td><strong>Aforos y filtros sanitarios:</strong> </td>
-							<td colspan='3' class="aforosFiltrosSanitarios"> </td>
-						</tr>
-						<tr>
-							<td> <strong>Referencias consultadas:</strong><br><br> </td>
-							<td> <div class="referencias-container"></div> </td>
-						</tr>
-
-					</tbody>
-				</table>
-
+				<div class="row row-1">
+					<div class="col l3">
+						<div class="card card-date white">
+							<div class="card-content card-date-content">
+							  <span class="card-title title-init-date">Fecha de inicio:</span>
+							  <p class="fechaRetorno"></p>
+							</div>
+						</div>
+					</div>
+					<div class="col l3">
+						<div class="card card-type-model white">
+							<div class="card-content card-type-model-content">
+							  <span class="card-title title-type-model">Tipo de modelo:</span>
+							  <p class="tipoModelo"></p>
+							</div>
+						</div>
+					</div>
+					<div class="col l6">
+						<div class="card card-strategy-name white">
+							<div class="card-content card-strategy-name-content">
+							  <span class="card-title title-strategy-name">Nombre de la estrategia/plan/modelo: </span>
+							  <p class="nombreEstrategia"></p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-		<!-- MODAL NO REGRESAN -->
-		<div id="ShowStateNoInformation" class="modal">
-			<a class="btn-floating btn-small waves-effect waves-black red close-modal-icon modal-close"><i class="material-icons">close</i></a>
+				<div class="row row-2">
+					<div class="col l4">
+						<div class="card card-reincorporation-voluntary white">
+							<div class="card-content card-reincorporation-voluntary-content">
+							  <span class="card-title title-reincorporation-voluntary"> <strong class="reincorporacionVoluntaria"></strong> <strong class="title-position">Reincorporación voluntaria</strong></span>
+							</div>
+						</div>
+						<div class="card card-reincorporation-gradual white">
+							<div class="card-content card-reincorporation-gradual-content">
+							  <span class="card-title title-reincorporation-gradual"> <strong class="reincorporacionGradual"></strong> <strong class="title-position">Reincorporación voluntaria</strong></span>
+							</div>
+						</div>
+						<div class="card card-vaccune-proffesors white">
+							<div class="card-content card-vaccune-proffesors-content">
+							  <span class="card-title title-vaccune-proffesors"> <strong class="docentesVacunados"></strong> <strong class="title-position">Profesores vacunados (<strong class="porcentage_vaccune"></strong>)</strong> </span>
+							</div>
+						</div>
+					</div>
+					<div class="col l8">
+						<div class="card card-disposiciones white">
+							<div class="card-content card-disposiciones-content">
+							  <span class="card-title title-disposiciones">Disposiciones o posturas para incursionar a la presencialidad:</span>
+							  <p class="actividadesPresenciales"></p>
+							</div>
+						</div>
+					</div>
+				</div>
 
-			<div class="modal-content">
-				<h4 class="country-name"></h4>
-				<p class="fechaRetorno"></p>
-				<p class="regresoActividadesPresenciales"></p>
-				<p class="actividadesPresenciales"></p>
+				<div class="row row-3">
+					<div class="col l4">
+						<div class="card card-references white">
+							<div class="card-content card-references-content">
+							  <span class="card-title title-references">Fuentes de información:</span>
+							  <p class="referencias-container"></p>
+							</div>
+						</div>
+					</div>
+					<div class="col l8">
+						<div class="card card-strategy white">
+							<div class="card-content card-strategy-content">
+							  <span class="card-title title-strategy">Estrategias y protocolos sanitarios:</span>
+							  <p class="aforosFiltrosSanitarios"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
