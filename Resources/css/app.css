@@ -132,8 +132,8 @@ td, th {
 
 #ShowStateInformation{
     width: 70% !important;
-    height: 80% !important;
-    max-height: 80% !important;
+    height: 83% !important;
+    max-height: 83% !important;
     z-index: 100;
     top: 50px !important;
 }
@@ -293,8 +293,13 @@ td, th {
         max-height: 80% !important;
     }
 
-    #ShowCountryInformation{
-        width: 60% !important;
+    #ShowStateInformation{
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+
+    .country-name{
+        font-size: 35px !important;
     }
 
     .close-modal-icon{

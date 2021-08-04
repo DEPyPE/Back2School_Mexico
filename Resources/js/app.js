@@ -696,7 +696,7 @@ polygonTemplate.events.on("hit", function(ev) {
     $('.reincorporacionGradual   ').html("<i class='material-icons icon-color-"+DataActualState.reincorporacionGradual+"'>"+DataActualState.reincorporacionGradual+"</i>");
     $('.docentesVacunados        ').html("<i class='material-icons icon-color-"+DataActualState.docentesVacunados+"'>"+DataActualState.docentesVacunados+"</i>");
     $('.alumnosVacunados         ').html("<i class='material-icons icon-color-"+DataActualState.alumnosVacunados+"'>"+DataActualState.alumnosVacunados+"</i>");
-    $('.porcentage_vaccune').text('100%');
+    $('.porcentage_vaccune').text('%');
 
     console.log(DataActualState.referencias.length);
     var ref = "";
