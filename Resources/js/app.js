@@ -11,38 +11,36 @@ var BlankData = [
         nombreEstrategia: "",
         actividadesPresenciales: "",
         aforosFiltrosSanitarios: "",
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     }
 ]
 
-// Color de los estados sin información
-// rgba(200, 200, 200, 1)
-
-// Color de los estados que sí regresan
-// rgba(0, 24, 75, 1)
-
-// Color de los estados que están por definir o se encuentran pendientes de confirmación el regreso presencial
-// rgba(255, 165, 0, 1)
+var BackColor     = "rgba(  0,  24,  75, 1)";
+var NoBackColor   = "rgba(255, 165,   0, 1)";
+var NoInformation = "rgba(200, 200, 200, 1)";
 
 var DataStates = [
     {
         id: "MX-BCS",
         name: "Baja California Sur",
-        regresoActividadesPresenciales: "Aún pendiente de confirmar",
-        fechaRetorno: "Se iniciaría en el ciclo 2021-2022",
-        tipoModelo: "No disponible",
-        reincorporacionVoluntaria: "info",
-        reincorporacionGradual: "info",
-        docentesVacunados: "info",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "Por definir",
+        tipoModelo: "A distancia",
+        reincorporacionVoluntaria: "check_circle",
+        reincorporacionGradual: "check_circle",
+        docentesVacunados: "check_circle",
+        docentesVacunadosPorcentaje: "78.8",
         alumnosVacunados: "info",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "Solo se han emitido lineamientos para trabajadores de la Secretaría estatal y su incorporación a labores presenciales.",
-        aforosFiltrosSanitarios: "No disponible",
+        actividadesPresenciales: "Las autoridades educativas de Baja California Sur se han pronunciado al regreso a clases presenciales únicamente cuando el semáforo sanitario se encuentre en color verde. Por lo que aún no se tiene una fecha programada para el regreso presencial. <br><br>La presencialidad será únicamente cuando el semáforo esté en verde.",
+        aforosFiltrosSanitarios: "Se capacitaron a los comités participativos de salud escolar, en cada escuela debe de existir un comité de esta naturaleza que se encargará de revisar las condiciones en las cuales se encuentra la escuela, se tendrán algunos filtros y el primero desde luego será la casa, será en el hogar donde se revise la condición de su hijo o hija y tener en claro cuáles son los síntomas COVID, el segundo filtro al entrar a la escuela y el tercero previo a entrar al salón de clases",
         referencias: [
-            "http://www.sepbcs.gob.mx/contenido/comunicados/medidassalud/ATENTO_COMUNICADO_MAY29.pdf",
-            "https://www.bcsnoticias.mx/confirmado-baja-california-sur-ya-se-prepara-para-regreso-a-las-aulas-en-agosto-sep/"
+            "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/baja-california-sur/",
+            "https://www.bcsnoticias.mx/confirmado-baja-california-sur-ya-se-prepara-para-regreso-a-las-aulas-en-agosto-sep/",
+            "https://www.elsudcaliforniano.com.mx/local/regreso-a-clases-solo-sera-en-alerta-verde-en-bcs-6987936.html",
+            "http://www.bcs.gob.mx/noticias/concluyo-vacunacion-del-personal-educativo-en-bcs/#:~:text=CONCLUY%C3%93%20VACUNACI%C3%93N%20DEL%20PERSONAL%20EDUCATIVO%20EN%20BCS,-La%20Paz%20B.C.S.&text=Con%20la%20aplicaci%C3%B3n%20de%2017,educativo%20de%20Baja%20California%20Sur."
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-BCN",
@@ -62,7 +60,7 @@ var DataStates = [
             "http://www.educacionbc.edu.mx/regresoseguro/assets/pdf/protocoloderegresoaclasescapacitacionapersonaldelasescuelas.pdf",
             "http://www.educacionbc.edu.mx/regresoseguro/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-SON",
@@ -80,7 +78,7 @@ var DataStates = [
         referencias: [
             "http://www.sec.gob.mx/portal/index.php?op=nota&p=1033"
         ],
-        color: "rgba(200, 200, 200, 1)"
+        color: NoInformation
     },
     {
         id: "MX-CHH",
@@ -98,7 +96,7 @@ var DataStates = [
         referencias: [
             "http://www.chihuahua.gob.mx/contenidos/podemos-pensar-en-regreso-clases-presenciales-el-proximo-ciclo-javier-corral"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-COA",
@@ -117,7 +115,7 @@ var DataStates = [
             "https://www.seducoahuila.gob.mx/assets/38-extraordinario-13-may-2021.pdf",
             "https://www.excelsior.com.mx/nacional/coahuila-regresara-a-clases-presenciales-el-23-de-agosto/1458394#:~:text=Coahuila%20regresar%C3%A1%20a%20clases%20el,clases%20presenciales%20con%20sistema%20h%C3%ADbrido."
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-NLE",
@@ -138,7 +136,7 @@ var DataStates = [
             "https://twitter.com/SenlOficial/status/1405643117492158465/photo/2",
             "https://twitter.com/SenlOficial/status/1405643117492158465/photo/1"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-TAM",
@@ -156,7 +154,7 @@ var DataStates = [
         referencias: [
             "https://www.tamaulipas.gob.mx/educacion/avisos/planteles-seleccionados-fase-2/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-SIN",
@@ -174,7 +172,7 @@ var DataStates = [
         referencias: [
             "https://mieducacion.sepyc.gob.mx/sinaloa-coincide-con-el-presidente-andres-manuel-lopez-obrador-el-regreso-a-clases-es-por-el-convencimiento-nada-por-la-fuerza/"
         ],
-        color: "rgba(200, 200, 200, 1)"
+        color: NoInformation
     },
     {
         id: "MX-DUR",
@@ -192,7 +190,7 @@ var DataStates = [
         referencias: [
             "https://www.elsiglodedurango.com.mx/2021/07/1329808.modelo-de-regreso-a-clases-sigue-sin-ser-definido-seed.html"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-ZAC",
@@ -210,7 +208,7 @@ var DataStates = [
         referencias: [
             "http://www.seduzac.gob.mx/portal/index.php"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-SLP",
@@ -228,7 +226,7 @@ var DataStates = [
         referencias: [
             "https://slp.gob.mx/sege/Paginas/NOTICIAS/FECHAS-Y-MODALIDAD-DE-REGRESO-A-CLASES--SE-DAR%C3%81N-A-CONOCER-LA-PR%C3%93XIMA-SEMANA.aspx"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-NAY",
@@ -246,7 +244,7 @@ var DataStates = [
         referencias: [
             "https://www.nayarit.gob.mx/seccion/educacion"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-JAL",
@@ -267,7 +265,7 @@ var DataStates = [
             "https://www.facebook.com/educacion.jalisco/photos/a.446164440747/10158547049890748/",
             "https://portalsej.jalisco.gob.mx/plan-jalisco-para-la-reactivacion-economica/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-AGU",
@@ -278,16 +276,21 @@ var DataStates = [
         reincorporacionVoluntaria: "check_circle",
         reincorporacionGradual: "check_circle",
         docentesVacunados: "check_circle",
+        docentesVacunadosPorcentaje: "84",
         alumnosVacunados: "cancel",
         nombreEstrategia: "Me sumo a un regreso seguro",
-        actividadesPresenciales: "La atención a alumnas y alumnos está centrada en el aspecto socioemocional, así como en la regularización académica y la adquisición de aprendizajes esperados. Se van integrndo escuelas de forma gradual por semana.",
-        aforosFiltrosSanitarios: "Se implememtaron 9 Intervenciones en torno al cuidado de la salud: Activación de comités d eparticipación de salud, garantizar acceso a agua y jabón, cubrebocas oblugatorio, sana distancia, uso de espacios abiertos, suspensión de ceremonias o reuniones, apoyo socioemocional y detección temprana. Asimismo, se aplican 3 filtros sanitarios.",
+        actividadesPresenciales: "Los estudiantes podrán ingresar a los planteles, pero no de manera masiva, es decir no regresan los grupos completos al mismo tiempo, será, durante las primeras semanas de manera escalonada y para permitir a los profesores levantar un diagnóstico sobre el aprendizaje logrado durante este periodo de aislamiento.                                                                              El nivel básico de educación tendrá un modelo mixto de clases, con grupos reducidos y asistencia alternada a los salones de clases. Los niños de los niveles de preescolar, primaria y secundaria deberán ajustarse a las siguientes fechas: <br><br> Jornadas de limpieza escolar. 11, 12 y 13 de agosto. <br> Inscripciones y reinscripciones. Del lunes 16 de agosto al viernes 10 de septiembre. <br> Evaluación diagnóstica. Del lunes 16 de agosto al viernes 10 de septiembre. <br> Período extraordinario de recuperación. Del lunes 13 de septiembre al martes 23 de noviembre dirigido a los alumnos con deficiencias educativas.                                                                                          el nivel medio superior regresará a clases con un modelo mixto. Los alumnos asistirán a clases de manera alternada, en grupos pequeños y con todas las medidas de salud e higiene necesarias para un regreso seguro. <br><br> El regreso a clases de este nivel educativo tendrá varias fechas, dependiendo del sistema al que está incorporada la escuela de tu hijo. Para el 6 de septiembre todas las preparatorias del estado ya deberán estar en clases. Por lo pronto se prevén las siguientes fechas de inicio: <br><br> Bachilleratos tecnológicos. Inicio de clases 23 de agosto. <br> Conalep. Inicio de clases 30 de agosto. <br> Bachilleratos incorporados a universidades. Misma fecha de inicio de la institución de nivel superior a la que se encuentran incorporados. Las universidades darán inicio a las actividades educativas según su propio calendario escolar.",
+        aforosFiltrosSanitarios: "Protocolo para prevenir contagios durante el regreso progresivo a clases presenciales en escuelas públicas y privadas de educación básica, media superior y superior , publciado el 27 de julio de 2021, en el cual se detallan las estregias para evitar contagios: <br> Uso obligatorio del cubrebocas, puerta abiertas y evitar contacto con picaportes, filtro de hogar, filtro escolar , filtro de aula, capaictaciones para personal y alumnos, limpieza a profundidad de las superficies, espacios y materiales, clausura de bebederos, reorganizar descansos y actividades fisicas, se promoveran clases en espacios abiertos, lavado de mano, evitar compartir alimentos, promover el estornudo de etiqueta (cubrir con el angulo interno del codo), el uniforme escolar no es obligatorio, se limita el aforo de los eventos  especiales, las actividades de servicios escolares serán por cita, <ol> <li>Se recabaran cartas de corresponsabilidad</li> <li> maximizar sana distancia y aprovechamiento de espacios abiertos y el uso permanente e irrestricto de cubrebocas</li> <li> lpimite del 40% diario de la población escolar</li> <li> No mas de 9 alumnas y alumnos y un docente por aula de educación primaria y telesecundaria</li> <li> No mas de 12 alumnos y alumnas y un docente por aula en escuelas secundarias generale sy técnicas</li> <li> No se permite en este periodo ningún tipkde expendio de alimentos ni se realizaran clases de educación fisica o artística</li></ol>",
         referencias: [
             "http://www.iea.gob.mx/INTERNAS/comunicacion/2020/Boletin_959_2021.pdf",
+            "http://www.iea.gob.mx/INTERNAS/comunicacion/2020/Boletin_959_2021.pdf",
+            "https://www.elsoldelcentro.com.mx/local/ya-hay-estrategia-para-regresar-a-clases-en-aguascalientes-6494515.html",
             "http://www.iea.gob.mx/INTERNAS/comunicacion/2020/Boletin_965_2021.pdf",
-            "http://www.iea.gob.mx/INTERNAS/regreso/pdfs/GUIASEP_REGRESOCLASES.pdf"
+            "http://www.iea.gob.mx/INTERNAS/regreso/pdfs/GUIASEP_REGRESOCLASES.pdf",
+            "https://regresoseguro.iea.edu.mx/",
+            "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/aguascalientes/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-GUA",
@@ -307,7 +310,7 @@ var DataStates = [
             "https://www.seg.guanajuato.gob.mx/RegresoalasAulas/SitePages/Inicio.aspx",
             "https://notus.com.mx/regreso-a-clases-presenciales-en-guanajuato-30-agosto-2021/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-QUE",
@@ -325,26 +328,29 @@ var DataStates = [
         referencias: [
             "https://queretaro.gob.mx/regresoaclaseguro.aspx"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-HID",
         name: "Hidalgo",
         regresoActividadesPresenciales: "No",
-        fechaRetorno: "Solicitan postergar, fecha no definida",
-        tipoModelo: "NA",
+        fechaRetorno: "NA",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "check_circle",
         reincorporacionGradual: "check_circle",
         docentesVacunados: "check_circle",
+        docentesVacunadosPorcentaje: "99",
         alumnosVacunados: "cancel",
         nombreEstrategia: "Regreso Seguro a Clases en los centros educativos en el marco de la pandemia COVID 19, Operativo Escudo, Hidalgo Seguro",
-        actividadesPresenciales: "De acuerdo a anuncios del gobernador de dicho estado en julio, pidió a las instituciones educativas públicas y privadas del estado postergar las clases presenciales en el estado, debido al incremento de casos de Covid-19 en los últimos días.",
-        aforosFiltrosSanitarios: "Filtros escolares, suspención de registro de entrada y salida de toda la comunidad educativa (alumnos, docentes, personal administrativo y personal de apoyo a la educación , asi como al publico en general) que conlleve el empleo de instrumentos ocmpartidos, cada  institución definira el control de asistencia laboral, limpieza intensiva y desinfección continua de todas las areas de los centros educativos, ventilación en todas las areascampaas de comunicación , dichas estrtegias coordinadas por el Comite Participativo de Salud Escolar (CPSE).",
+        actividadesPresenciales: "De acuerdo a anuncios del gobernador de dicho estado en julio, pidió a las instituciones educativas públicas y privadas del estado postergar las clases presenciales en el estado, debido al incremento de casos de Covid-19 en los últimos días. <br><br> El secretario de Salud de Hidalgo, Efraín Benítez Herrea, señaló que en estos momentos no existen condiciones para el regreso a clases presenciales en la entidad. El funcionario indió que la situación epidemiológica actual no permite el retonrno, programado para finales de agosto, algo que ha dialogado con el titular d ela SEPH, Atilano Rodríguez",
+        aforosFiltrosSanitarios: "Filtros escolares, suspención de registro de entrada y salida de toda la comunidad educativa (alumnos, docentes, personal administrativo y personal de apoyo a la educación , asi como al publico en general) que conlleve el empleo de instrumentos ocmpartidos, cada  institución definira el control de asistencia laboral, limpieza intensiva y desinfección continua de todas las areas de los centros educativos, ventilación en todas las areascampaas de comunicación , dichas estrtegias coordinadas por el Comite Participativo de Salud Escolar (CPSE) ",
         referencias: [
             "https://periodico.hidalgo.gob.mx/?p=44435",
-            "https://subrayado.com.mx/hidalgo/cuando-regresan-a-clases-hidalgo-inicio-ciclo-escolar-2021-2022-seph/"
+            "https://subrayado.com.mx/hidalgo/cuando-regresan-a-clases-hidalgo-inicio-ciclo-escolar-2021-2022-seph/",
+            "https://criteriohidalgo.com/noticias/sin-condiciones-momento-regreso-clases-hidalgo-salud",
+            "https://www.milenio.com/ciencia-y-salud/hidalgo-99-docentes-vacunaron-covid-19-seph"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-COL",
@@ -362,7 +368,7 @@ var DataStates = [
         referencias: [
             "https://seceduccol-my.sharepoint.com/personal/publicaciones_web_secolima_gob_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fpublicaciones%5Fweb%5Fsecolima%5Fgob%5Fmx%2FDocuments%2FPublicaciones%2FOtros%2F2021%2FPrueba%20Piloto%20de%20Asesori%CC%81a%20Aca%CC%81demicas%20y%20Apoyo%20Socioemocional%2Epdf&parent=%2Fpersonal%2Fpublicaciones%5Fweb%5Fsecolima%5Fgob%5Fmx%2FDocuments%2FPublicaciones%2FOtros%2F2021&originalPath=aHR0cHM6Ly9zZWNlZHVjY29sLW15LnNoYXJlcG9pbnQuY29tLzpiOi9nL3BlcnNvbmFsL3B1YmxpY2FjaW9uZXNfd2ViX3NlY29saW1hX2dvYl9teC9FUldlQjVMalQ4MUdud1FkUnNqZC0wb0I3SHI3RjlTcG5idldYWlhUSzJINkR3P3J0aW1lPUozS09XQjVWMlVn"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-MIC",
@@ -382,7 +388,7 @@ var DataStates = [
             "https://aulas.see.gob.mx/wp-content/uploads/2021/06/Circular-SEE-10-2021.pdf",
             "https://educacion.michoacan.gob.mx/category/avisos/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-VER",
@@ -400,7 +406,7 @@ var DataStates = [
         referencias: [
             "https://www.sev.gob.mx/v1/noticias/leer/2354/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-PUE",
@@ -418,7 +424,7 @@ var DataStates = [
         referencias: [
             "http://sep.puebla.gob.mx/index.php/component/k2/prueba-2-2-2"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-TLA",
@@ -436,7 +442,7 @@ var DataStates = [
         referencias: [
             "https://www.milenio.com/politica/comunidad/duda-regreso-clases-presenciales-tlaxcala-tercer-ola-covid"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-MEX",
@@ -457,7 +463,7 @@ var DataStates = [
             "https://www.eluniversal.com.mx/metropoli/edomex/sin-definir-si-el-ciclo-escolar-2021-2022-iniciara-de-forma-presencial-en-edomex",
             "https://salud.edomex.gob.mx/isem/ac_boletines_informativos "
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-CMX",
@@ -475,7 +481,7 @@ var DataStates = [
         referencias: [
             "https://www.capital21.cdmx.gob.mx/noticias/?p=19324"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-MOR",
@@ -494,28 +500,32 @@ var DataStates = [
             "https://morelos.gob.mx/?q=prensa/nota/comunicado-de-prensa-secretaria-de-educacion-3",
             "https://elqueretano.info/trafico/presentan-calendario-escolar-2021-2022-para-morelos/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-GRO",
         name: "Guerrero",
-        regresoActividadesPresenciales: "Si",
+        regresoActividadesPresenciales: "Por definir",
         fechaRetorno: "31 de agosto 2021/ 03 de septiembre de 2021",
         tipoModelo: "Híbrido",
         reincorporacionVoluntaria: "check_circle",
         reincorporacionGradual: "check_circle",
         docentesVacunados: "check_circle",
+        docentesVacunadosPorcentaje: "",
         alumnosVacunados: "cancel",
         nombreEstrategia: "De regreso a la escuela",
-        actividadesPresenciales: "El próximo 31 de agosto arrancará de manera presencial el ciclo escolar 2021-2022 en casi 12 mil escuelas de Guerrero. regreso a clases será de manera gradual y escalonada",
-        aforosFiltrosSanitarios: "Se considerarán tres factores: que el estado se mantenga permanentemente en el color verde en el Semáforo de Riesgo Epidemiológico; que las escuelas cuenten con un protocolo sanitario, un plan escolar que refleje la organización administrativa y académica del plantel, y el fortalecimiento académico a través de una guía estatal para el regreso a clases y el cronograma de actividades para la apertura de escuelas en todos los niveles. Por otro lado, los trabajadores de la educación hayan sido vacunados y que el semáforo epidemiológico esté en verde.",
+        actividadesPresenciales: "El próximo 31 de agosto arrancará de manera presencial el ciclo escolar 2021-2022 en casi 12 mil escuelas de Guerrero. regreso a clases será de manera gradual y escalonada. <br><br>  Sin embargo, en notas recientes  se refirió que de no haber un cambio en el semáforo epidemiológico a color verde, habría posibilidad de estar frente a grupo, caso contrario, tendrán que seguir con el modelo a distancia. <br><br> Miembros de la Coordinación Estatal de Trabajadores de la educación en Guerrero (CETEG) informó que se realizará consulta a los padres de familia respecto al regreso a clases presenciales , el próximo 30 de agosto, a pesar de la pandemia.",
+        aforosFiltrosSanitarios: "Se considerarán tres factores: que el estado se mantenga permanentemente en el color verde en el Semáforo de Riesgo Epidemiológico; que las escuelas cuenten con un protocolo sanitario, un plan escolar que refleje la organización administrativa y académica del plantel, y el fortalecimiento académico a través de una guía estatal para el regreso a clases y el cronograma de actividades para la apertura de escuelas en todos los niveles. <br><br> Por otro lado, los trabajadores de la educación hayan sido vacunados y que el semáforo epidemiológico esté en verde.",
         referencias: [
             "https://heraldodemexico.com.mx/nacional/2021/6/22/guerrero-anuncia-regreso-clases-presenciales-en-agosto-309005.html",
             "https://www.elsoldemexico.com.mx/republica/sociedad/regreso-a-clases-presenciales-en-guerrero-sera-el-3-de-septiembre-preve-gobernador-pandemia-covid-19-6819985.html",
+            "https://www.elsoldeacapulco.com.mx/local/complicado-el-regreso-a-clases-presenciales-en-guerrero-escuelas-pandemi-contagios-covid-guerrero-7039433.html",
             "https://snte.org.mx/seccion14/snte-condiciona-el-regreso-a-clases-presenciales-en-guerrero/",
-            "https://snte.org.mx/seccion14/con-seguridad-volvemos-a-la-escuela-snte/"
+            "https://snte.org.mx/seccion14/con-seguridad-volvemos-a-la-escuela-snte/",
+            "https://www.elsoldeacapulco.com.mx/local/complicado-el-regreso-a-clases-presenciales-en-guerrero-escuelas-pandemi-contagios-covid-guerrero-7039433.html",
+            "https://suracapulco.mx/consultara-a-los-padres-respecto-al-regreso-a-clases-presenciales-adelanta-la-ceteg/"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-OAX",
@@ -534,7 +544,7 @@ var DataStates = [
             "https://www.oaxaca.gob.mx/ieepo/circular-no-sge-dpe-003-2021-exhorto-a-escuelas-particulares/",
             "https://www.milenio.com/estados/regreso-clases-presenciales-oaxaca-agosto-voluntario"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-TAB",
@@ -552,7 +562,7 @@ var DataStates = [
         referencias: [
             "https://heraldodemexico.com.mx/nacional/2021/7/22/tabasco-no-volvera-clases-presenciales-en-agosto-analizan-sea-en-septiembre-318653.html"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-CHP",
@@ -570,7 +580,7 @@ var DataStates = [
         referencias: [
             "https://www.eluniversal.com.mx/estados/regreso-clases-presenciales-en-chiapas-sera-el-proximo-30-de-agosto-anuncian-autoridades"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },  
     {
         id: "MX-CAM",
@@ -588,7 +598,7 @@ var DataStates = [
         referencias: [
             "https://politica.expansion.mx/estados/2021/05/22/campeche-frena-el-regreso-a-clases-presenciales-por-aumento-de-casos-de-covid-19"
         ],
-        color: "rgba(255, 165, 0, 1)"
+        color: NoBackColor
     },
     {
         id: "MX-YUC",
@@ -606,7 +616,7 @@ var DataStates = [
         referencias: [
             "http://www.educacion.yucatan.gob.mx/boletines/index"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
     {
         id: "MX-ROO",
@@ -624,7 +634,7 @@ var DataStates = [
         referencias: [
             "https://qroo.gob.mx/seq/detallan-acciones-de-la-seq-para-el-regreso-clases-destacando-cuatro-importantes-temas"
         ],
-        color: "rgba(0, 24, 75, 1)"
+        color: BackColor
     },
 ];
 
@@ -678,7 +688,7 @@ polygonTemplate.events.on("hit", function(ev) {
     <i class='material-icons tooltipped' data-position='bottom' data-tooltip='Sin información'>info</i>
 
     .modal
-    background: linear-gradient(rgba(0, 24, 75, 1) 0%, rgba(0, 24, 75, 1) 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important;
+    background: linear-gradient(BackColor 0%, BackColor 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important;
 */
 
     $('.modal').css({
@@ -696,11 +706,16 @@ polygonTemplate.events.on("hit", function(ev) {
     $('.reincorporacionGradual   ').html("<i class='material-icons icon-color-"+DataActualState.reincorporacionGradual+"'>"+DataActualState.reincorporacionGradual+"</i>");
     $('.docentesVacunados        ').html("<i class='material-icons icon-color-"+DataActualState.docentesVacunados+"'>"+DataActualState.docentesVacunados+"</i>");
     $('.alumnosVacunados         ').html("<i class='material-icons icon-color-"+DataActualState.alumnosVacunados+"'>"+DataActualState.alumnosVacunados+"</i>");
-    $('.porcentage_vaccune').text('%');
+    
+    console.log( DataActualState.docentesVacunadosPorcentaje !== "undefined" )
 
+    if( DataActualState.docentesVacunadosPorcentaje )
+        $('.porcentage_vaccune').text('('+DataActualState.docentesVacunadosPorcentaje+'%)');
+        
     console.log(DataActualState.referencias.length);
-    var ref = "";
 
+
+    var ref = "";
     for(var i=0; i<DataActualState.referencias.length; i++)
         ref = ref + "["+(i+1)+"] " + DataActualState.referencias[i] + "<br><br>";
 
