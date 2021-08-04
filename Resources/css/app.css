@@ -230,7 +230,7 @@ td, th {
 }
 
 .card-date-content, .card-type-model-content, .card-strategy-name-content{
-    padding: 0px 10px 10px 25px !important;
+    padding: 5px 10px 10px 25px !important;
 }
 
 .card-reincorporation-voluntary, .card-reincorporation-gradual, 
