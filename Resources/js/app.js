@@ -11,13 +11,14 @@ var BlankData = [
         nombreEstrategia: "",
         actividadesPresenciales: "",
         aforosFiltrosSanitarios: "",
-        color: BackColor
+        color: StateBack2School
     }
 ]
 
-var BackColor     = "rgba(  0,  24,  75, 1)";
-var NoBackColor   = "rgba(255, 165,   0, 1)";
-var NoInformation = "rgba(200, 200, 200, 1)";
+var StateBack2School   = "rgba(  0,  24,  75, 1)";
+var StateInDefinition  = "rgba(255, 165,   0, 1)";
+var StateNoBack2School = "rgba(255, 255,   0, 1)";
+var StateNoInformation = "rgba(200, 200, 200, 1)";
 
 var DataStates = [
     {
@@ -40,7 +41,7 @@ var DataStates = [
             "https://www.elsudcaliforniano.com.mx/local/regreso-a-clases-solo-sera-en-alerta-verde-en-bcs-6987936.html",
             "http://www.bcs.gob.mx/noticias/concluyo-vacunacion-del-personal-educativo-en-bcs/#:~:text=CONCLUY%C3%93%20VACUNACI%C3%93N%20DEL%20PERSONAL%20EDUCATIVO%20EN%20BCS,-La%20Paz%20B.C.S.&text=Con%20la%20aplicaci%C3%B3n%20de%2017,educativo%20de%20Baja%20California%20Sur."
         ],
-        color: NoBackColor
+        color: StateNoBack2School
     },
     {
         id: "MX-BCN",
@@ -61,7 +62,7 @@ var DataStates = [
             "http://www.educacionbc.edu.mx/regresoseguro/",
             "https://www.jornada.com.mx/notas/2021/07/26/estados/planean-regreso-a-clases-gradual-en-baja-california-a-partir-de-agosto/#:~:text=El%20gobierno%20de%20Baja%20California,forma%20gradual%2C%20escalonada%20y%20segura"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-SON",
@@ -81,7 +82,7 @@ var DataStates = [
             "http://www.sec.gob.mx/portal/index.php?op=nota&p=1033",
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/sonora/#medidas+para+el+regreso+a+clases+en+sonora"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-CHH",
@@ -106,7 +107,7 @@ var DataStates = [
             "https://www.omnia.com.mx/noticia/185917",
             "http://www.chihuahua.gob.mx/contenidos/podemos-pensar-en-regreso-clases-presenciales-el-proximo-ciclo-javier-corral"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-COA",
@@ -128,7 +129,7 @@ var DataStates = [
             "https://www.saludcoahuila.gob.mx/COVID19/documentos/MANUAL%20REAPERTURA%20ESCOLAR%202021.pdf",
             "https://www.elheraldodesaltillo.mx/2021/07/05/volverian-el-23-de-agosto-a-clases-presenciales-90-escuelas-en-coahuila/"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-NLE",
@@ -150,7 +151,7 @@ var DataStates = [
             "https://twitter.com/SenlOficial/status/1405643117492158465/photo/2",
             "https://twitter.com/SenlOficial/status/1405643117492158465/photo/1"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-TAM",
@@ -176,7 +177,7 @@ var DataStates = [
             "https://www.elsoldetampico.com.mx/local/regional/regreso-a-clases-presenciales-en-tamaulipas-sera-voluntario-cabeza-de-vaca-7026334.html",
             "https://www.hoytamaulipas.net/notas/464556/Regresaran-a-clases-presenciales-en-Tamaulipas-el-30-de-agosto.html"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-SIN",
@@ -195,7 +196,7 @@ var DataStates = [
         referencias: [
             "https://mieducacion.sepyc.gob.mx/sinaloa-coincide-con-el-presidente-andres-manuel-lopez-obrador-el-regreso-a-clases-es-por-el-convencimiento-nada-por-la-fuerza/"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-DUR",
@@ -220,7 +221,7 @@ var DataStates = [
             "https://twitter.com/SenlOficial/status/1405643117492158465/photo/2",
             "https://twitter.com/SenlOficial/status/1405643117492158465/photo/1"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-ZAC",
@@ -243,7 +244,7 @@ var DataStates = [
             "https://imagenzac.com.mx/capital/estudiantes-regresaran-a-las-aulas-el-30-de-agosto/",
             "http://ntrzacatecas.com/2021/07/12/prepara-uaz-encuesta-de-movilidad-y-convivencia/"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-SLP",
@@ -262,7 +263,7 @@ var DataStates = [
         referencias: [
             "https://slp.gob.mx/sege/Paginas/NOTICIAS/FECHAS-Y-MODALIDAD-DE-REGRESO-A-CLASES--SE-DAR%C3%81N-A-CONOCER-LA-PR%C3%93XIMA-SEMANA.aspx"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-NAY",
@@ -284,7 +285,7 @@ var DataStates = [
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/nayarit/",
             "https://meridiano.mx/seccion/nayarit/nayarit-no-est-en-condiciones-de-regresar-a-clases-presenciales-educaci-n-1/"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-JAL",
@@ -307,7 +308,7 @@ var DataStates = [
             "https://portalsej.jalisco.gob.mx/plan-jalisco-para-la-reactivacion-economica/",
             "https://udgtv.com/noticias/regreso-clases-virtuales-decision-basada-criterios-cientificos-udeg/"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-AGU",
@@ -332,7 +333,7 @@ var DataStates = [
             "https://regresoseguro.iea.edu.mx/",
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/aguascalientes/"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-GUA",
@@ -357,7 +358,7 @@ var DataStates = [
             "https://zonafranca.mx/politica-sociedad/educacion/en-guanajuato-sera-voluntario-el-regreso-a-clases/",
             "https://www.unionguanajuato.mx/2021/08/02/regreso-a-clases-presenciales-en-agosto-calendario-escolar-2021-a-2022-de-la-sep/"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-QUE",
@@ -378,7 +379,7 @@ var DataStates = [
             "https://www.queretaro.gob.mx/covid19/contenido/noticiasContenido.aspx?q=vUYGbsxLnli7glS/gQWD0HldeVLSaRLz7RohSiloFmz7sxVv8axXyw==",
             "https://www.queretaro.gob.mx/pdf/SEDEQ_GuiaRegresoaClases.pdf"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-HID",
@@ -400,7 +401,7 @@ var DataStates = [
             "https://criteriohidalgo.com/noticias/sin-condiciones-momento-regreso-clases-hidalgo-salud",
             "https://www.milenio.com/ciencia-y-salud/hidalgo-99-docentes-vacunaron-covid-19-seph"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-COL",
@@ -422,7 +423,7 @@ var DataStates = [
             "https://diariodecolima.com/noticias/detalle/2021-07-23-flores-colima-est-preparado-para-iniciar-el-ciclo-escolar",
             "https://elcomentario.ucol.mx/elabora-colima-su-estrategia-para-regreso-a-clases-presenciales/"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-MIC",
@@ -445,7 +446,7 @@ var DataStates = [
             "https://educacion.michoacan.gob.mx/category/avisos/",
             "https://www.elsoldemorelia.com.mx/local/finaliza-vacunacion-a-personal-docente-en-michoacan-6693260.html"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-VER",
@@ -466,7 +467,7 @@ var DataStates = [
             "https://www.sev.gob.mx/v1/noticias/leer/2354/",
             "https://www.diariodexalapa.com.mx/local/si-habra-clases-presenciales-pero-no-obligatorio-dijo-el-titular-de-la-sev-zenyazen-escobar-garcia-7029291.html"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-PUE",
@@ -486,7 +487,7 @@ var DataStates = [
             "http://sep.puebla.gob.mx/index.php/component/k2/prueba-2-2-2",
             "https://www.eluniversalpuebla.com.mx/educacion/95-de-maestros-en-puebla-ya-esta-vacunado-contra-covid"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-TLA",
@@ -510,7 +511,7 @@ var DataStates = [
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/tlaxcala/#modalidad+del+regreso+a+clases+en+tlaxcala",
             "https://www.milenio.com/politica/comunidad/de-manera-responsable-buscan-que-sea-el-regreso-a-clases-en-tlaxcala"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-MEX",
@@ -533,7 +534,7 @@ var DataStates = [
             "https://www.eluniversal.com.mx/metropoli/edomex/sin-definir-si-el-ciclo-escolar-2021-2022-iniciara-de-forma-presencial-en-edomex",
             "https://salud.edomex.gob.mx/isem/ac_boletines_informativos"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-CMX",
@@ -559,7 +560,7 @@ var DataStates = [
             "https://politica.expansion.mx/mexico/2021/07/29/cuando-es-el-regreso-clases-presenciales-universidades-cdmx",
             "https://www.capital21.cdmx.gob.mx/noticias/?p=19324"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-MOR",
@@ -581,7 +582,7 @@ var DataStates = [
             "https://mexico.as.com/mexico/2021/07/30/actualidad/1627609664_758632.html",
             "https://mexico.as.com/mexico/2021/07/30/actualidad/1627609664_758632.html"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-GRO",
@@ -606,7 +607,7 @@ var DataStates = [
             "https://www.elsoldeacapulco.com.mx/local/complicado-el-regreso-a-clases-presenciales-en-guerrero-escuelas-pandemi-contagios-covid-guerrero-7039433.html",
             "https://suracapulco.mx/consultara-a-los-padres-respecto-al-regreso-a-clases-presenciales-adelanta-la-ceteg/"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-OAX",
@@ -630,7 +631,7 @@ var DataStates = [
             "https://www.milenio.com/estados/regreso-clases-presenciales-oaxaca-agosto-voluntario",
             "https://www.milenio.com/estados/regreso-clases-presenciales-oaxaca-agosto-voluntario"
         ],
-        color: NoBackColor
+        color: StateInDefinition
     },
     {
         id: "MX-TAB",
@@ -650,7 +651,7 @@ var DataStates = [
             "https://heraldodemexico.com.mx/nacional/2021/7/22/tabasco-no-volvera-clases-presenciales-en-agosto-analizan-sea-en-septiembre-318653.html",
             "https://www.elheraldodetabasco.com.mx/local/tabasco-si-regresa-a-clases-presenciales-en-septiembre-7015316.html"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-CHP",
@@ -670,7 +671,7 @@ var DataStates = [
             "https://www.unomasuno.com.mx/regreso-a-clases-en-chiapas-el-proximo-ciclo-escolar/",
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/chiapas/ ;  https://planeacion.sep.gob.mx/entidadfederativa.aspxhttps://www.eluniversal.com.mx/estados/regreso-clases-presenciales-en-chiapas-sera-el-proximo-30-de-agosto-anuncian-autoridades"
         ],
-        color: BackColor
+        color: StateBack2School
     },  
     {
         id: "MX-CAM",
@@ -692,7 +693,7 @@ var DataStates = [
             "http://campechehoy.mx/2021/07/31/en-campeche-sera-dificil-el-regreso-a-clases-presenciales/",
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/campeche/"
         ],
-        color: NoBackColor
+        color: StateNoBack2School
     },
     {
         id: "MX-YUC",
@@ -714,7 +715,7 @@ var DataStates = [
             "https://www.yucatan.com.mx/merida/yucatan-tendra-un-regreso-a-clases-presencial-en-agosto",
             "https://www.lajornadamaya.mx/yucatan/176643/los-ninos-deben-regresar-a-clases-presenciales-lo-mas-pronto-posible-vila-dosal"
         ],
-        color: BackColor
+        color: StateBack2School
     },
     {
         id: "MX-ROO",
@@ -733,7 +734,7 @@ var DataStates = [
         referencias: [
             "https://qroo.gob.mx/seq/detallan-acciones-de-la-seq-para-el-regreso-clases-destacando-cuatro-importantes-temas"
         ],
-        color: BackColor
+        color: StateBack2School
     },
 ];
 
@@ -787,7 +788,7 @@ polygonTemplate.events.on("hit", function(ev) {
     <i class='material-icons tooltipped' data-position='bottom' data-tooltip='Sin información'>info</i>
 
     .modal
-    background: linear-gradient(BackColor 0%, BackColor 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important;
+    background: linear-gradient(StateBack2School 0%, StateBack2School 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important;
 */
 
     $('.modal').css({
