@@ -60,7 +60,7 @@ body{
     border: 1px solid rgb(150, 150, 150);
 }
 
-.yellow-square, .blue-square, .gray-square, .orange-square{
+.blue-square, .gray-square, .orange-square{
     padding: 5px;
 }
 
