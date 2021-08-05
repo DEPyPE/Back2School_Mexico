@@ -98,7 +98,12 @@ var DataStates = [
         actividadesPresenciales: "Las disposiciones para el regreso son obligatorias, se implementará un programa de sanitización en las escuelas. Si hay condiciones adversar por la pandemia se regresará a la enseñanza a distancia. La Universidad Tecnológica de Chihuahua (UTCH)  realizó la semana pasada un simulacro de un posible regreso híbrido a talleres y laboratorios, cuidando ventilaciones y espacios, dando resultados favorables.",
         aforosFiltrosSanitarios: "Protocolo sanitario apegado a lo establecido por la SEP",
         referencias: [
-            "https://e-oaxaca.com/nota/2021-08-03/nacion/sera-obligatorio-regreso-clases-presenciales-el-30-de-agosto-gobernador-de ;   https://www.elfinanciero.com.mx/nacional/2021/06/01/cuantos-maestros-y-maestras-han-sido-vacunados-contra-covid-en-mexico-esto-dice-la-sep/ ;  https://nortedigital.mx/oficial-regresa-chihuahua-a-las-aulas-el-30-de-agosto/  ; https://notigram.com/chihuahua/es-obligatorio-el-regreso-a-clases-gobernador-de-chihuahua-20210803-571139 ;  https://heraldodemexico.com.mx/nacional/2021/8/3/javier-corral-anuncia-regreso-clases-presenciales-el-30-de-agosto-en-chihuahua-322320.html  ; https://www.omnia.com.mx/noticia/185917",
+            "https://e-oaxaca.com/nota/2021-08-03/nacion/sera-obligatorio-regreso-clases-presenciales-el-30-de-agosto-gobernador-de",
+            "https://www.elfinanciero.com.mx/nacional/2021/06/01/cuantos-maestros-y-maestras-han-sido-vacunados-contra-covid-en-mexico-esto-dice-la-sep/",
+            "https://nortedigital.mx/oficial-regresa-chihuahua-a-las-aulas-el-30-de-agosto/",
+            "https://notigram.com/chihuahua/es-obligatorio-el-regreso-a-clases-gobernador-de-chihuahua-20210803-571139",
+            "https://heraldodemexico.com.mx/nacional/2021/8/3/javier-corral-anuncia-regreso-clases-presenciales-el-30-de-agosto-en-chihuahua-322320.html",
+            "https://www.omnia.com.mx/noticia/185917",
             "http://www.chihuahua.gob.mx/contenidos/podemos-pensar-en-regreso-clases-presenciales-el-proximo-ciclo-javier-corral"
         ],
         color: BackColor
@@ -811,7 +816,7 @@ polygonTemplate.events.on("hit", function(ev) {
 
     var ref = "";
     for(var i=0; i<DataActualState.referencias.length; i++)
-        ref = ref + "["+(i+1)+"] " + DataActualState.referencias[i] + "<br><br>";
+        ref = ref + "["+(i+1)+"] " + DataActualState.referencias[i] + "<br>";
 
     $('.referencias-container').html(ref);
 
