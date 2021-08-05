@@ -806,18 +806,42 @@ polygonTemplate.events.on("hit", function(ev) {
     $('.reincorporacionGradual   ').html("<i class='material-icons icon-color-"+DataActualState.reincorporacionGradual+"'>"+DataActualState.reincorporacionGradual+"</i>");
     $('.docentesVacunados        ').html("<i class='material-icons icon-color-"+DataActualState.docentesVacunados+"'>"+DataActualState.docentesVacunados+"</i>");
     $('.alumnosVacunados         ').html("<i class='material-icons icon-color-"+DataActualState.alumnosVacunados+"'>"+DataActualState.alumnosVacunados+"</i>");
-    
-    console.log( DataActualState.docentesVacunadosPorcentaje !== "undefined" )
 
     if( DataActualState.docentesVacunadosPorcentaje )
         $('.porcentage_vaccune').text('('+DataActualState.docentesVacunadosPorcentaje+'%)');
-        
-    console.log(DataActualState.referencias.length);
 
+    var StrategyName_NumWords = DataActualState.nombreEstrategia.split(" ").length;
+    
+    if( StrategyName_NumWords > 10 )
+        $('.card-strategy-name').css('overflow-y', 'scroll');
+    else
+        $('.card-strategy-name').css('overflow-y', 'auto');
+
+    var StrategiesPorotocols_NumWords = DataActualState.aforosFiltrosSanitarios.split(" ").length;
+
+    if( StrategiesPorotocols_NumWords > 54 )
+        $('.card-strategy').css('overflow-y', 'scroll');
+    else
+        $('.card-strategy').css('overflow-y', 'auto');
+
+    var Disposiciones_NumWords = DataActualState.actividadesPresenciales.split(" ").length;
+
+    if( Disposiciones_NumWords > 70 )
+        $('.card-disposiciones').css('overflow-y', 'scroll');
+    else
+        $('.card-disposiciones').css('overflow-y', 'auto');
+
+    var TypeSate = DataActualState.color;
+    if( TypeSate == "rgba(255, 255,   0, 1)" )
+        $('.country-name').css('color', 'rgba(80, 80, 80, 0.9)');
+    else
+        $('.country-name').css('color', 'white');
 
     var ref = "";
     for(var i=0; i<DataActualState.referencias.length; i++)
         ref = ref + "["+(i+1)+"] " + DataActualState.referencias[i] + "<br>";
+
+    
 
     $('.referencias-container').html(ref);
 
