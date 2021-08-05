@@ -401,7 +401,7 @@ var DataStates = [
             "https://criteriohidalgo.com/noticias/sin-condiciones-momento-regreso-clases-hidalgo-salud",
             "https://www.milenio.com/ciencia-y-salud/hidalgo-99-docentes-vacunaron-covid-19-seph"
         ],
-        color: StateInDefinition
+        color: StateNoBack2School
     },
     {
         id: "MX-COL",
@@ -693,7 +693,7 @@ var DataStates = [
             "http://campechehoy.mx/2021/07/31/en-campeche-sera-dificil-el-regreso-a-clases-presenciales/",
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/campeche/"
         ],
-        color: StateNoBack2School
+        color: StateInDefinition
     },
     {
         id: "MX-YUC",
