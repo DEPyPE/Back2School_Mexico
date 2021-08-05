@@ -838,10 +838,19 @@ polygonTemplate.events.on("hit", function(ev) {
         $('.country-name').css('color', 'white');
 
     var ref = "";
-    for(var i=0; i<DataActualState.referencias.length; i++)
-        ref = ref + "["+(i+1)+"] " + DataActualState.referencias[i] + "<br>";
+    var refSplited = "";
 
-    
+    if( DataActualState.referencias.length > 5 )
+        $('.card-references').css('overflow-y', 'scroll');
+    else
+        $('.card-references').css('overflow-y', 'auto');
+
+    for(var i=0; i<DataActualState.referencias.length; i++){
+        refSplited = DataActualState.referencias[i].split('/');
+
+        console.log( refSplited );
+        ref = ref + "["+(i+1)+"] <a href='"+DataActualState.referencias[i]+"'>"+refSplited[2]+"</a><br>";
+    }
 
     $('.referencias-container').html(ref);
 

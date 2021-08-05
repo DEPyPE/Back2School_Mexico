@@ -263,11 +263,6 @@ td, th {
     padding: 5px 10px 10px 15px !important;
 }
 
-/*.card-strategy-name*/
-.card-references{
-    overflow-y: scroll !important;
-}
-
 .card-references-content{
     overflow-x: auto;
 }
