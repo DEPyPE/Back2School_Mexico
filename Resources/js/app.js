@@ -779,18 +779,6 @@ polygonTemplate.events.on("hit", function(ev) {
             DataActualState = DataStates[i];
     }
 
-    console.log(  );
-/*
-    icon-color-cancel / icon-color-check_circle / icon-color-info
-    cancel          / check_circle            / info
-
-    <i class='small material-icons'>check_circle</i>
-    <i class='material-icons tooltipped' data-position='bottom' data-tooltip='Sin información'>info</i>
-
-    .modal
-    background: linear-gradient(StateBack2School 0%, StateBack2School 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important;
-*/
-
     $('.modal').css({
         background: "linear-gradient("+DataActualState.color+" 0%, "+DataActualState.color+" 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%)"
     });
@@ -810,27 +798,6 @@ polygonTemplate.events.on("hit", function(ev) {
     if( DataActualState.docentesVacunadosPorcentaje )
         $('.porcentage_vaccune').text('('+DataActualState.docentesVacunadosPorcentaje+'%)');
 
-    var StrategyName_NumWords = DataActualState.nombreEstrategia.split(" ").length;
-    
-    if( StrategyName_NumWords > 10 )
-        $('.card-strategy-name').css('overflow-y', 'scroll');
-    else
-        $('.card-strategy-name').css('overflow-y', 'auto');
-
-    var StrategiesPorotocols_NumWords = DataActualState.aforosFiltrosSanitarios.split(" ").length;
-
-    if( StrategiesPorotocols_NumWords > 54 )
-        $('.card-strategy').css('overflow-y', 'scroll');
-    else
-        $('.card-strategy').css('overflow-y', 'auto');
-
-    var Disposiciones_NumWords = DataActualState.actividadesPresenciales.split(" ").length;
-
-    if( Disposiciones_NumWords > 70 )
-        $('.card-disposiciones').css('overflow-y', 'scroll');
-    else
-        $('.card-disposiciones').css('overflow-y', 'auto');
-
     var TypeSate = DataActualState.color;
     if( TypeSate == "rgba(255, 255,   0, 1)" )
         $('.country-name').css('color', 'rgba(80, 80, 80, 0.9)');
@@ -847,13 +814,10 @@ polygonTemplate.events.on("hit", function(ev) {
 
     for(var i=0; i<DataActualState.referencias.length; i++){
         refSplited = DataActualState.referencias[i].split('/');
-
-        console.log( refSplited );
-        ref = ref + "["+(i+1)+"] <a href='"+DataActualState.referencias[i]+"'>"+refSplited[2]+"</a><br>";
+        ref = ref+"<a class='truncate' href='"+DataActualState.referencias[i]+"'>"+DataActualState.referencias[i]+"</a>";
     }
-
+//  ["+(i+1)+"]
     $('.referencias-container').html(ref);
-
     $('#ShowStateInformation').modal('open');
 });
 

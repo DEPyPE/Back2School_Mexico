@@ -141,9 +141,9 @@ td, th {
 }
 
 #ShowStateInformation{
-    width: 70% !important;
-    height: 83% !important;
-    max-height: 83% !important;
+    width: 72% !important;
+    height: 82% !important;
+    max-height: 82% !important;
     z-index: 100;
     top: 50px !important;
 }
@@ -157,9 +157,14 @@ td, th {
     border-radius: 10px !important;
 }
 
+.modal .modal-content{
+    padding: 24px 24px 0px 24px !important;
+}
+
 .country-name{
     font-weight: bold !important;
     color: white;
+    margin-bottom: 20px !important;
 }
 
 .close-modal-icon{
@@ -238,7 +243,7 @@ td, th {
 
 .card-reincorporation-voluntary-content, .card-reincorporation-gradual-content, 
 .card-vaccune-proffesors-content{
-    padding: 10px !important;
+    padding: 10px 0 10px 10px !important;
     height: 50px !important;
 }
 
@@ -259,12 +264,21 @@ td, th {
     height: 165px !important;
 }
 
+.collection-true-false-values{
+    height: 165px !important;
+}
+
 .card-date-content, .card-type-model-content, .card-strategy-name-content{
     padding: 5px 10px 10px 15px !important;
 }
 
 .card-references-content{
     overflow-x: auto;
+}
+
+.card-date, .card-type-model, .card-strategy-name,
+.card-disposiciones, .card-strategy, .card-references{
+    overflow-y: auto !important;
 }
 
 .card-date, .card-type-model, .card-strategy-name{
@@ -306,13 +320,13 @@ td, th {
     }
 
 /* Estilos para el modal */
-    .modal{
-        max-height: 80% !important;
-    }
 
     #ShowStateInformation{
+        top: 10% !important;
         width: 90% !important;
         max-width: 90% !important;
+        max-height: 75% !important;
+        height: 75% !important;
     }
 
     .country-name{
@@ -361,5 +375,21 @@ td, th {
         font-size: 16px;
         margin-bottom: 0px;
     }
+
+    .modal .modal-content {
+        padding: 24px 15px 24px 15px !important;
+    }
+
+/* ESTILOS PARA LOS ELEMENTOS DEL MODAL */
+
+    .card-date, .card-type-model, .card-strategy-name{
+        height: auto !important;
+    }
+
+    .card-date, .card-type-model, .card-strategy-name, .card.card-disposiciones, .card-strategy{
+        margin-bottom: 0 !important;
+    }
+
+
 
 }

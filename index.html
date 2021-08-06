@@ -40,10 +40,9 @@
 			</div>
 		</section>
 
-		<!-- MODAL SI REGRESAN -->
+		<!-- MODAL INFORMACIÓN POR PAÍS -->
 		<div id="ShowStateInformation" class="modal">
 			<a class="btn-floating btn-big waves-effect waves-black red close-modal-icon modal-close"><i class="material-icons">close</i></a>
-
 			<div class="modal-content">
 				<h2 class="country-name"></h2>
 
@@ -51,23 +50,23 @@
 					<div class="col l4 s12">
 						<div class="card card-date white">
 							<div class="card-content card-date-content">
-							  <span class="card-title title-init-date">Fecha de incorporación presencial:</span>
+							  <span class="card-title title-init-date truncate">Fecha de incorporación presencial:</span>
 							  <p class="fechaRetorno"></p>
 							</div>
 						</div>
 					</div>
-					<div class="col l2 s12">
+					<div class="col l3 s12">
 						<div class="card card-type-model white">
 							<div class="card-content card-type-model-content">
-							  <span class="card-title title-type-model">Tipo de modelo:</span>
+							  <span class="card-title title-type-model truncate">Tipo de modelo:</span>
 							  <p class="tipoModelo"></p>
 							</div>
 						</div>
 					</div>
-					<div class="col l6 s12">
+					<div class="col l5 s12">
 						<div class="card card-strategy-name white">
 							<div class="card-content card-strategy-name-content">
-							  <span class="card-title title-strategy-name">Nombre de la estrategia/plan/modelo: </span>
+							  <span class="card-title title-strategy-name truncate">Nombre de la estrategia/plan/modelo: </span>
 							  <p class="nombreEstrategia"></p>
 							</div>
 						</div>
@@ -78,17 +77,17 @@
 					<div class="col l4 s12">
 						<div class="card card-reincorporation-voluntary white">
 							<div class="card-content card-reincorporation-voluntary-content">
-							  <span class="card-title title-reincorporation-voluntary"> <strong class="reincorporacionVoluntaria"></strong> <strong class="title-position">Reincorporación voluntaria</strong></span>
+							  <span class="card-title title-reincorporation-voluntary truncate"> <strong class="reincorporacionVoluntaria left"></strong> <strong class="title-position">Reincorporación voluntaria</strong></span>
 							</div>
 						</div>
 						<div class="card card-reincorporation-gradual white">
 							<div class="card-content card-reincorporation-gradual-content">
-							  <span class="card-title title-reincorporation-gradual"> <strong class="reincorporacionGradual"></strong> <strong class="title-position">Reincorporación gradual</strong></span>
+							  <span class="card-title title-reincorporation-gradual truncate"> <strong class="reincorporacionGradual left"></strong> <strong class="title-position">Reincorporación gradual</strong></span>
 							</div>
 						</div>
 						<div class="card card-vaccune-proffesors white">
 							<div class="card-content card-vaccune-proffesors-content">
-							  <span class="card-title title-vaccune-proffesors"> <strong class="docentesVacunados"></strong> <strong class="title-position">Profesores vacunados <strong class="porcentage_vaccune"></strong></strong> </span>
+							  <span class="card-title title-vaccune-proffesors truncate"> <strong class="docentesVacunados left"></strong> <strong class="title-position">Profesores vacunados <strong class="porcentage_vaccune"></strong></strong> </span>
 							</div>
 						</div>
 					</div>
@@ -102,7 +101,7 @@
 					</div>
 				</div>
 
-				<div class="row row-3">
+				<div class="row row-3 hide-on-med-and-down">
 					<div class="col l4 s12">
 						<div class="card card-references white">
 							<div class="card-content card-references-content">
@@ -121,12 +120,35 @@
 					</div>
 				</div>
 
-
+				<div class="row row-3 show-on-small hide-on-large-only">
+					<div class="col l8 s12">
+						<div class="card card-strategy white">
+							<div class="card-content card-strategy-content">
+							  <span class="card-title title-strategy">Estrategias y protocolos sanitarios:</span>
+							  <p class="aforosFiltrosSanitarios"></p>
+							</div>
+						</div>
+					</div>
+					<div class="col l4 s12">
+						<div class="card card-references white">
+							<div class="card-content card-references-content">
+							  <span class="card-title title-references">Fuentes de información:</span>
+							  <p class="referencias-container"></p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+			
+			<!--
+			<div class="modal-footer hide-on-large-only">
+				<a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i>Cerrar</a>
+			</div>
+			-->
 		</div>
 
 		<div class="date-hour-last-update">
-			Última actualización 05/08/2021 - 10:05 am
+			Última actualización 05/08/2021 - 11:31 am
 		</div>
 
 		<!-- amCharts javascript sources -->
