@@ -329,10 +329,6 @@ td, th {
         height: 75% !important;
     }
 
-    .country-name{
-        font-size: 35px !important;
-    }
-
     .close-modal-icon{
         position: fixed !important;
         top: 10px;
