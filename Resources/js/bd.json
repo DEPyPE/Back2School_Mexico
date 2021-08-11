@@ -1,0 +1,172 @@
+{
+    "users": {
+        "admin": {
+            "name": "Walter Alejandro Moreno Ramírez",
+            "typeuser": "admin",
+            "password": "UtnCboV1"
+        }
+    },
+
+    "states": {
+        "Aguascaliente": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Baja California Norte": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Baja California Sur": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Campeche": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Coahuila de Zaragoza": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Colima": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Chiapas": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Chihuahua": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Ciudad de México": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Durango": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Guanajuato": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Guerrero": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Hidalgo": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Jalisco": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Estado de México": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Michoacán de Ocampo": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Morelos": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Nayarit": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Nuevo León": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Oaxaca": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Puebla": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Querétaro": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Quintana Roo": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "San Luis Potosí": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Sinaloa": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Sonora": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Tabasco": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Tamaulipas": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Tlaxcala": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Veracruz de Ignacio de la Llave": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Yucatán": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        },
+        "Zacatecas": {
+            "v1": {},
+            "v2": {},
+            "v3": {}
+        }
+    }
+}

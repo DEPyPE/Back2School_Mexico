@@ -14,6 +14,8 @@
 	</head>
 
 	<body>
+<!--	<a href="#ModifyStateInformation" class="modal-trigger waves-effect btn-login"><i class="material-icons left">input</i></a> -->
+
 		<div id="map"></div>
 		
 		<section class="section-label-countries">
@@ -39,8 +41,206 @@
 				<div class="no-start-class-countries label-color-description"> Estados sin información disponible para el regreso a clases presenciales </div>
 			</div>
 		</section>
+		
+		<!-- MODAL PARA MODIFICAR LA INFORMACIÓN POR ESTADO -->
+		<div id="ModifyStateInformation" class="modal">
+			<a class="btn-floating btn-big waves-effect waves-black red close-modal-icon modal-close"><i class="material-icons">close</i></a>
+			<div class="modal-content">
+				
+				<h5 class="select-states">
+					<select class="browser-default">
+					<option value="" disabled selected>Selecciona un estado</option>
+					<option value="1">Aguascalientes</option>
+					<option value="2">Baja California</option>
+					<option value="3">Baja California Sur</option>
+					<option value="4">Campechw</option>
+					<option value="5">Coahuila</option>
+					<option value="6">Colima</option>
+					<option value="7">Chiapas</option>
+					<option value="8">Chihuahua</option>
+					<option value="9">Durango</option>
+					<option value="10">Distrito Federal</option>
+					<option value="11">Guanajuato</option>
+					<option value="12">Guerrero</option>
+					<option value="13">Hidalgo</option>
+					<option value="14">Jalisco</option>
+					<option value="15">México</option>
+					<option value="16">Michoacán</option>
+					<option value="17">Morelos</option>
+					<option value="18">Nayarit</option>
+					<option value="19">Nuevo León</option>
+					<option value="20">Oaxaca</option>
+					<option value="21">Puebla</option>
+					<option value="22">Querétaro</option>
+					<option value="23">Quintana Roo</option>
+					<option value="24">San Luis Potosí</option>
+					<option value="25">Sinaloa</option>
+					<option value="26">Sonora</option>
+					<option value="27">Tabasco</option>
+					<option value="28">Tamaulipaa</option>
+					<option value="29">Tlaxcala</option>
+					<option value="30">Veracruz</option>
+					<option value="31">Yucatán</option>
+					<option value="32">Zacatecas</option>
+					</select>
+				</h5>
 
-		<!-- MODAL INFORMACIÓN POR PAÍS -->
+				<div class="row row-1">
+					<div class="col l4 s12">
+						<div class="card card-date-modify white">
+
+							<div class="card-content card-date-modify-content">
+							  <span class="card-title title-init-date truncate">Fecha de incorporación presencial:</span>
+							  
+							  <div class="input-field input-col col l12 m12 s12">
+								<input id="FechaRetornoModify" type="text" class="validate">
+							  </div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col l4 s12">
+						<div class="card card-type-model-modify white">
+							<div class="card-content card-type-model-modify-content">
+							  <span class="card-title title-type-model truncate">Tipo de modelo:</span>
+							  
+							  <div class="input-field input-col col l12 m12 s12">
+								<input id="TipoModeloModify" type="text" class="validate">
+							  </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col l4 s12">
+						<div class="card card-strategy-name-modify white">
+							<div class="card-content card-strategy-name-modify-content">
+							  <span class="card-title title-strategy-name truncate">Nombre de la estrategia/plan/modelo: </span>
+							  
+							  <div class="input-field input-col col l12 m12 s12">
+								<input id="NombreEstrategiaModify" type="text" class="validate">
+							  </div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-2">
+					<div class="col l5 s12">
+						<div class="card card-reincorporation-voluntary-modify white">
+							<div class="card-content card-reincorporation-voluntary-modify-content">
+								
+								<div class="col l8 m8 s8">
+									<span class="card-title title-reincorporation-voluntary truncate">
+										<strong class="ReincorporacionVoluntariaModify left"></strong>
+										<strong class="title-position">Reincorporación voluntaria</strong>
+									</span>
+								</div>
+
+								<div class="input-field col l4 m4 s4 browser-default-select1">
+									<select class="browser-default">
+										<option value="" disabled selected>Opciones</option>
+										<option value="1">Si</option>
+										<option value="2">No</option>
+										<option value="3">Sin información</option>
+									</select>
+								</div>
+
+							</div>
+						</div>
+						<div class="card card-reincorporation-gradual-modify white">
+							<div class="card-content card-reincorporation-gradual-modify-content">
+								
+								<div class="col l8 m8 s8">
+									<span class="card-title title-reincorporation-gradual truncate">
+										<strong class="ReincorporacionGradualModify left"></strong>
+										<strong class="title-position">Reincorporación gradual</strong>
+									</span>
+								</div>
+
+								<div class="input-field col l4 m4 s4 browser-default-select2">
+									<select class="browser-default">
+										<option value="" disabled selected>Opciones</option>
+										<option value="1">Si</option>
+										<option value="2">No</option>
+										<option value="3">Sin información</option>
+									</select>
+								</div>
+								
+							</div>
+						</div>
+						<div class="card card-vaccune-proffesors-modify white">
+							<div class="card-content card-vaccune-proffesors-modify-content">
+							  	
+								<div class="col l8 m8 s8">
+									<span class="card-title title-vaccune-proffesors truncate">
+										<strong class="DocentesVacunadosModify left"></strong>
+										<strong class="title-position">Profesores vacunados <strong class="porcentage_vaccune"></strong></strong>
+									</span>
+								</div>
+
+								<div class="input-field col l4 m4 s4 browser-default-select3">
+									<select class="browser-default">
+										<option value="" disabled selected>Opciones</option>
+										<option value="1">Si</option>
+										<option value="2">No</option>
+										<option value="3">Sin información</option>
+									</select>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col l7 s12">
+						<div class="card card-disposiciones-modify white">
+							<div class="card-content card-disposiciones-modify-content">
+							  <span class="card-title title-disposiciones">Disposiciones o posturas para incursionar a la presencialidad:</span>
+							
+							  <div class="input-field col s12">
+								<textarea id="ActividadesPresencialesModify" class="materialize-textarea"></textarea>
+							  </div>
+							  
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-3">
+					<div class="col l6 s12">
+						<div class="card card-references-modify white">
+							<div class="card-content card-references-modify-content">
+							  <span class="card-title title-references">Fuentes de información:</span>
+
+							  <div class="input-field input-references col s12">
+								<textarea id="ReferencesModify" class="materialize-textarea"></textarea>
+							  </div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col l6 s12">
+						<div class="card card-strategy-modify white">
+							<div class="card-content card-strategy-modify-content">
+							  <span class="card-title title-strategy">Estrategias y protocolos sanitarios:</span>
+
+							  <div class="input-field col s12">
+								<textarea id="AforosFiltrosSanitariosModify" class="materialize-textarea"></textarea>
+							  </div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons left">close</i>Cerrar</a>
+			</div>
+		</div>
+
+		<!-- MODAL EDICIÓN DE DATOS POR ESTADO -->
 		<div id="ShowStateInformation" class="modal">
 			<a class="btn-floating btn-big waves-effect waves-black red close-modal-icon modal-close"><i class="material-icons">close</i></a>
 			<div class="modal-content">
@@ -139,16 +339,10 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="content-aux">
-
-			</div>
-			
 			<!--
-			<div class="modal-footer hide-on-large-only">
-				<a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i>Cerrar</a>
-			</div>
-			-->
+			<div class="modal-footer">
+				<a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons left">close</i>Cerrar</a>
+			</div>-->
 		</div>
 
 		<div class="date-hour-last-update">

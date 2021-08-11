@@ -793,7 +793,7 @@ polygonTemplate.events.on("hit", function(ev) {
             DataActualState = DataStates[i];
     }
 
-    $('.modal').css({
+    $('#ShowStateInformation').css({
         background: "linear-gradient("+DataActualState.color+" 0%, "+DataActualState.color+" 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%)"
     });
 

@@ -141,7 +141,15 @@ td, th {
 }
 
 #ShowStateInformation{
-    width: 72% !important;
+    width: 65% !important;
+    height: 82% !important;
+    max-height: 82% !important;
+    z-index: 100;
+    top: 50px !important;
+}
+
+#ModifyStateInformation{
+    width: 80% !important;
     height: 82% !important;
     max-height: 82% !important;
     z-index: 100;
@@ -165,6 +173,7 @@ td, th {
     font-weight: bold !important;
     color: white;
     margin-bottom: 20px !important;
+    padding-bottom: 5px !important;
 }
 
 .close-modal-icon{
@@ -305,6 +314,76 @@ td, th {
     text-align: center;
 }
 
+/* MODAL FOOTER */
+.modal-footer{
+    display: none !important;
+}
+
+/* LOGIN */
+.btn-login{
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    color: black !important;
+    z-index: 10 !important;
+}
+
+/* ESTILOS PARA EL MODAL PARA MODIFICAR LOS DATOS */
+.select-states{
+    width: 35% !important;
+}
+
+.card-date-modify, .card-type-model-modify, .card-strategy-name-modify,
+.card-reincorporation-voluntary-modify, .card-reincorporation-gradual-modify,
+.card-vaccune-proffesors-modify, .card-references-modify, .card-strategy-modify,
+.card-disposiciones-modify{
+    overflow-y: hidden;
+    border-radius: 10px !important;
+}
+
+.card-date-modify, .card-type-model-modify, .card-strategy-name-modify,
+.card-reincorporation-voluntary-modify, .card-reincorporation-gradual-modify,
+.card-vaccune-proffesors-modify, .card-references-modify, .card-strategy-modify{
+    height: auto !important;
+}
+
+.card-date-modify-content, .card-type-model-modify-content, .card-strategy-name-modify-content,
+.card-reincorporation-voluntary-modify, .card-reincorporation-gradual-modify-content,
+.card-vaccune-proffesors-modify-content, .card-references-modify, .card-strategy-modify-content{
+    padding: 10px 10px 10px 15px !important;
+}
+
+.card-references-modify-content{
+    padding: 0 !important;
+}
+
+.input-references{
+    margin-bottom: 5px !important;
+}
+
+.card-reincorporation-voluntary-modify-content{
+    padding: 8px 0px 0px 8px !important;
+}
+
+.browser-default-select1, .browser-default-select2, .browser-default-select3{
+    margin-top: -5px !important;
+}
+
+.card-disposiciones-modify{
+    height: 267px !important;
+}
+
+.card-disposiciones-modify{
+    overflow-y: auto !important;
+}
+
+.input-col{
+    margin-top: 0 !important;
+}
+
+#ModifyStateInformation{
+    background: linear-gradient(rgba(215, 215, 215, 1) 0%, rgba(215, 215, 215, 1) 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important;
+}
+
 @media screen and (max-width: 1000px){
 
 /* Fecha y hora de actualización */
@@ -378,14 +457,12 @@ td, th {
 
 /* ESTILOS PARA LOS ELEMENTOS DEL MODAL */
 
-    .card-date, .card-type-model, .card-strategy-name{
+    .card-date, .card-type-model, .card-strategy-name, .card-disposiciones, .card-strategy, .card-references{
         height: auto !important;
     }
 
     .card-date, .card-type-model, .card-strategy-name, .card.card-disposiciones, .card-strategy{
         margin-bottom: 0 !important;
     }
-
-
 
 }
