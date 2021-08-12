@@ -828,8 +828,11 @@ polygonTemplate.events.on("hit", function(ev) {
             DataActualState = DataStates[i];
     }
 
+    color_splited = DataActualState.color.split(',');
+    color_background = color_splited[0] + ',' + color_splited[1] + ',' + color_splited[2] + ', 0.9)';
+
     $('#ShowStateInformation').css({
-        background: "linear-gradient("+DataActualState.color+" 0%, "+DataActualState.color+" 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%)"
+        background: "linear-gradient("+color_background+" 0%, "+color_background+" 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%)"
     });
 
     $('.country-name').text(DataActualState.name);
