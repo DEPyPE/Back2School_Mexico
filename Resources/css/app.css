@@ -40,7 +40,7 @@ body{
     position: absolute;
     top: 30px;
     right: 50px;
-    width: 400px;
+    width: 450px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
@@ -65,7 +65,7 @@ body{
 }
 
 .yellow-square{
-    background-color: rgba(255, 255, 0, 1);
+    background-color: rgba(237, 234, 55, 1);
 }
 
 .blue-square{
