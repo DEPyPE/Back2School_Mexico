@@ -24,7 +24,7 @@ var DataStates = [
     {
         id: "MX-BCS",
         name: "Baja California Sur",
-        regresoActividadesPresenciales: "No",
+        regresoActividadesPresenciales: "Por definir",
         fechaRetorno: "Por definir",
         tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
@@ -41,7 +41,7 @@ var DataStates = [
             "https://www.elsudcaliforniano.com.mx/local/regreso-a-clases-solo-sera-en-alerta-verde-en-bcs-6987936.html",
             "http://www.bcs.gob.mx/noticias/concluyo-vacunacion-del-personal-educativo-en-bcs/#:~:text=CONCLUY%C3%93%20VACUNACI%C3%93N%20DEL%20PERSONAL%20EDUCATIVO%20EN%20BCS,-La%20Paz%20B.C.S.&text=Con%20la%20aplicaci%C3%B3n%20de%2017,educativo%20de%20Baja%20California%20Sur"
         ],
-        color: StateNoBack2School
+        color: StateInDefinition
     },
     {
         id: "MX-BCN",
@@ -265,7 +265,7 @@ var DataStates = [
     {
         id: "MX-SLP",
         name: "San Luis Potosí",
-        regresoActividadesPresenciales: "Por definir",
+        regresoActividadesPresenciales: "SI",
         fechaRetorno: "Sin información",
         tipoModelo: "A distancia",
         reincorporacionVoluntaria: "Sin Definir",
@@ -278,14 +278,15 @@ var DataStates = [
         aforosFiltrosSanitarios: "No habrá regreso a clases presenciales durante el mes de agosto, además recordó que para el regreso a clases presenciales, cuando existan las condiciones sanitarias, se aplicarán nueve intervenciones o medidas para asegurar el bienestar de la comunidad escolar. <br><br> Hubo una reapertura del 15% de escuelas en junio. El saldo fueron dos casos de contagios en docentes y nueve alumnos",
         referencias: [
             "https://slp.gob.mx/sege/Paginas/NOTICIAS/FECHAS-Y-MODALIDAD-DE-REGRESO-A-CLASES--SE-DAR%C3%81N-A-CONOCER-LA-PR%C3%93XIMA-SEMANA.aspx",
-            "https://slp.gob.mx/sege/Paginas/NOTICIAS/NO-HAY-REGRESO-A-CLASES-PRESENCIALES-EN-SAN-LUIS-POTOS%C3%8D-SECRETARIO-DE-EDUCACI%C3%93N.aspx"
+            "https://slp.gob.mx/sege/Paginas/NOTICIAS/NO-HAY-REGRESO-A-CLASES-PRESENCIALES-EN-SAN-LUIS-POTOS%C3%8D-SECRETARIO-DE-EDUCACI%C3%93N.aspx",
+            "https://www.elsoldesanluis.com.mx/local/confirma-la-sege-el-regreso-a-clases-el-30-de-agosto-en-san-luis-potosi-7073590.html"
         ],
-        color: StateInDefinition
+        color: StateBack2School
     },
     {
         id: "MX-NAY",
         name: "Nayarit",
-        regresoActividadesPresenciales: "SI",
+        regresoActividadesPresenciales: "Por definir",
         fechaRetorno: "10 de agosto",
         tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
@@ -302,7 +303,7 @@ var DataStates = [
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/nayarit/",
             "https://meridiano.mx/seccion/nayarit/nayarit-no-est-en-condiciones-de-regresar-a-clases-presenciales-educaci-n-1/"
         ],
-        color: StateBack2School
+        color: StateInDefinition
     },
     {
         id: "MX-JAL",
@@ -419,6 +420,7 @@ var DataStates = [
             "https://periodico.hidalgo.gob.mx/?p=44435",
             "https://subrayado.com.mx/hidalgo/cuando-regresan-a-clases-hidalgo-inicio-ciclo-escolar-2021-2022-seph/",
             "https://criteriohidalgo.com/noticias/sin-condiciones-momento-regreso-clases-hidalgo-salud",
+            "https://www.milenio.com/ciencia-y-salud/hidalgo-99-docentes-vacunaron-covid-19-seph",
             "https://www.milenio.com/ciencia-y-salud/hidalgo-99-docentes-vacunaron-covid-19-seph"
         ],
         color: StateNoBack2School
@@ -545,14 +547,16 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Plan de Reapertura de regreso a clases 2020*",
-        actividadesPresenciales: "En 2020, presento el plan de reapertura de regreso a clases. Sin embargo, el ciclo pasado fue a distancia y aun no existe una postura definida para el ciclo 21-22. De acuerdo con el COMUNICADO SEB 07/06/2021-Regreso seguro a clases. Indica que deben cumplirse condiciones para asegurar el regreso, pero no confirmando una fecha para la incorporación presencial. <br><br>El secretario de Educación del Estado de México, Gerardo Monroy Serrano, informó que se prevé que el inicio del ciclo escolar 2021-2022, programado para el 30 de agosto se dé de forma híbrida, es decir, retomando actividades presenciales de manera voluntaria, además de continuar con clases y actividades educativas a distancia, haciendo uso de las plataformas digitales. https://www.milenio.com/ciencia-y-salud/regreso-a-clases-sera-presencial-y-a-distancia-seduc",
+        actividadesPresenciales: "Gerardo Monroy Serrano, secretario de Educación del Estado de México anunció de manera oficial que el regreso a clases para el ciclo escolar 2021-2022 en el Edomex se dará de manera híbrida. Explicó que aquellos que opten por las clases presenciales, deberán cumplir estos lineamientos y medidas de prevención. Las escuelas dividirán los grupos en dos para reducir la cantidad de alumnos en las aulas, pues lo que se busca es que los salones no tengan más de 15 alumnos. Unos niños vendrán lunes, miércoles y viernes, y otros el martes y jueves. A la semana siguiente, los que fueron tres días, irán solo martes y jueves y los que fueron dos días, irán lunes, miércoles y viernes, explicó. <br><br>En 2020, presento el plan de reapertura de regreso a clases. Sin embargo, el ciclo pasado fue a distancia y aun no existe una postura definida para el ciclo 21-22. De acuerdo con el COMUNICADO SEB 07/06/2021-Regreso seguro a clases. Indica que deben cumplirse condiciones para asegurar el regreso, pero no confirmando una fecha para la incorporación presencial. <br><br>El secretario de Educación del Estado de México, Gerardo Monroy Serrano, informó que se prevé que el inicio del ciclo escolar 2021-2022, programado para el 30 de agosto se dé de forma híbrida, es decir, retomando actividades presenciales de manera voluntaria, además de continuar con clases y actividades educativas a distancia, haciendo uso de las plataformas digitales. https://www.milenio.com/ciencia-y-salud/regreso-a-clases-sera-presencial-y-a-distancia-seduc",
         aforosFiltrosSanitarios: "Se emite la Guía de Orientación para la Reapertura de las Escuelas ante COVID-19, en la cual indica la implementación del  Comité Participativo de Salud Escolar. <br><br> Aplicación de protocolos y filtros de corresponsabilidad en casa, a la entrada del plantel y en el salón de clases",
         referencias: [
             "https://subeducacionbasica.edomex.gob.mx/sites/subeducacionbasica.edomex.gob.mx/files/files/SEBComunicado07062021.pdfhttps://www.unionedomex.mx/articulo/2021/07/08/educacion/regreso-clases-edomex-2021-2022-conoce-las-actividades-previas",
             "https://www.milenio.com/ciencia-y-salud/regreso-a-clases-sera-presencial-y-a-distancia-seduc",
             "http://148.215.3.96:8283/imgcovid/PLAN%20REAPERTURA%2019%20de%20Mayo.pdf",
             "https://www.eluniversal.com.mx/metropoli/edomex/sin-definir-si-el-ciclo-escolar-2021-2022-iniciara-de-forma-presencial-en-edomex",
-            "https://salud.edomex.gob.mx/isem/ac_boletines_informativos"
+            "https://salud.edomex.gob.mx/isem/ac_boletines_informativos",
+            "https://tolucalabellacd.com/2021/08/06/educacion/regreso-a-clases-edomex-hibrida-2021-2021-040993/",
+            "https://www.jornada.com.mx/notas/2021/08/12/estados/seem-anuncia-regreso-a-clases-en-modalidad-hibrida/"
         ],
         color: StateBack2School
     },
@@ -598,14 +602,12 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Regreso a clases",
-        actividadesPresenciales: "Se estan coordinando con la Secretaría de Gobernación que realiza con gobernadores, la Secretaría de Salud y de Educación de los estados y se esta analizando todos los escenarios, además mecniona que será relevante la opinión de los padres de familia. <br><br> El periodo de inscripciones y reinscripciones será del 16 de agosto al 10 de septiembre, mientras que las sesiones del Comité Participativo de Salud Escolar, así como las jornadas de limpieza en escuelas serán del 11 al 13 de agosto de 2021. con el fin de estar listo para el inicio de ciclo",
+        actividadesPresenciales: "Se esta por definir el regreso presencial, Fernando Salgado Delgado -líder de la agrupación de maestros “El poder de la Educación y la Sociedad”- manifestó tajante que no puede haber retorno si los docentes, padres de familia y estudiante no están vacunados en su totalidad. <br><br>Además, entre los puntos expuestos destaca la exigencia de que para tomar una decisión se necesita que previamente se garanticen recursos para infraestructura, pero también para personal de intendencia y seguridad, para mantener condiciones de salubridad en cada centro escolar y controlar los accesos y filtros.",
         aforosFiltrosSanitarios: "Terminó en julio el Programa Piloto de Regreso a Clases Presenciales Seguras, voluntarias, escalonadas y graduales sin incidente alguno para todos los que participaron en este proyecto: alumnos, padres de familia, docentes, administrativos y personal de apoyo",
         referencias: [
-            "https://morelos.gob.mx/?q=prensa/nota/comunicado-de-prensa-secretaria-de-educacion-3",
-            "https://elqueretano.info/trafico/presentan-calendario-escolar-2021-2022-para-morelos/",
-            "https://mexico.as.com/mexico/2021/07/30/actualidad/1627609664_758632.html",
-            "https://www.milenio.com/estados/morelos-analiza-posible-regreso-a-clases-presenciales",
-            "https://mexico.as.com/mexico/2021/07/30/actualidad/1627609664_758632.html"
+            "https://www.milenio.com/estados/michoacan-iniciara-ciclo-escolar-clases-presenciales",
+            "https://launion.com.mx/morelos/avances/noticias/187385-avanza-entrega-de-libros-de-texto-2021-2022-en-escuelas-iebem.html"
+
         ],
         color: StateInDefinition
     },
@@ -706,7 +708,7 @@ var DataStates = [
         id: "MX-CAM",
         name: "Campeche",
         regresoActividadesPresenciales: "Si",
-        fechaRetorno: "Por Definir",
+        fechaRetorno: "30 de mayo",
         tipoModelo: "Híbrido",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
