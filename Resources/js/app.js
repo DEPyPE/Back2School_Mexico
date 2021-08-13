@@ -103,19 +103,9 @@ var DataStates = [
         actividadesPresenciales: "Se refrenda el inicio el 30 de agosto, con las actividades del protocolo SEP, y con base en reuniones en coordinación con el equipo de transición del nuevo gobierno por entrar.  Regresan conforme a lo establecido por la SEP, donde el inicio del ciclo escolar 2021-2022 es el miércoles 11 de agosto, advirtiendo que toda medida debe estar sujeta a evaluación e incluso a una rectificación. <br><br>El secretario de Educación dijo que no será ''un regreso a clases normal, sino que el modelo sea de hasta un máximo del 50 por ciento los estudiantes puedan estar acudiendo a las aulas''.  También que: ''A partir del 11 de agosto todas las figuras educativas deberán regresar a labores presenciales con los cursos de preparación del ciclo escolar y el regreso escalonado. Del 11 al 14 de agosto se realizará la jornada de limpieza donde participarán los Comités de Participación en Salud y los padres de familia deberán trabajar para la limpieza de los centros escolares. Del 17 al 20 de agosto los docentes tendrán el taller de capacitación y la semana del 23 al 27 se tendrá el primer Consejo Técnico Escolar del ciclo 2021-2022, a fin de que el lunes 30 de agosto se estén abriendo las escuelas para recibir a los niños''. Para el equipo de transición, la intención es que algunos grupos vayan lunes y miércoles y el viernes se dejen para los alumnos que tengan una mayor necesidad de apoyo.",
         aforosFiltrosSanitarios: "La estrategia Chihuahua plantea tres ejes:  Eje I. estrategia de ajuste significativo en el diseño curricular con aprendizajes esperados, Eje II. centros de asesoría y seguimiento académico, CASA, Eje III: estrategia multianual para la recuperación académica ciclos escolares 2020-2021. 2021-2022. <br><br> Los planteles escolares no abrirán de manera regular los cinco días de la semana de manera simultánea, sino que la vertiente que iniciará a partir del 30 de agosto será con el aforo en los centros escolares del 50%, como máximo.<br><br> Las sesiones de la jornada escolar serán de 45 minutos, luego los estudiantes deberán levantarse y salir del salón para que se ventile, por lo que se ha pedido que los centros escolares que cuenten con domos, canchas, pórticos y otros espacios al aire libre se aprovechen mientras que el clima lo permita.<br><br> La estrategia está acompañada de los filtros sanitarios, los cuales inician desde el hogar, ya que padre y/o madre deben de verificar que no presente síntomas y firmar el compromiso escolar. Al ingresar al plantel deberán lavarse las manos y hacer uso de gel antibacterial.  Además: ''cada plantel escolar elegirá cómo recibirán a los niños, es decir, si por abecedario o grado, si el viernes atenderán a los estudiantes que requieren de atención más individualizado''",
         referencias: [
-            "https://www.elheraldodechihuahua.com.mx/local/chihuahua/seran-actividades-presenciales-escalonadas-secretario-de-educacion-noticias-de-chihuahua-regreso-a-clases-pandemia-contagios-7051252.html",
-            "https://www.eldiariodechihuahua.mx/local/reitera-educacion-que-el-30-de-agosto-iniciara-ciclo-escolar-20210806-1826941.html",
-            "https://www.eldiariodechihuahua.mx/estado/maru-tomara-decision-sobre-el-regreso-a-clases-20210804-1826158.html",
-            "https://www.adn40.mx/mexico/sep-clases-presenciales-agosto-chihuahua-lmo",
-            "https://e-oaxaca.com/nota/2021-08-03/nacion/sera-obligatorio-regreso-clases-presenciales-el-30-de-agosto-gobernador-de",
-            "https://www.elfinanciero.com.mx/nacional/2021/06/01/cuantos-maestros-y-maestras-han-sido-vacunados-contra-covid-en-mexico-esto-dice-la-sep/",
-            "https://nortedigital.mx/oficial-regresa-chihuahua-a-las-aulas-el-30-de-agosto/",
-            "https://notigram.com/chihuahua/es-obligatorio-el-regreso-a-clases-gobernador-de-chihuahua-20210803-571139",
-            "https://heraldodemexico.com.mx/nacional/2021/8/3/javier-corral-anuncia-regreso-clases-presenciales-el-30-de-agosto-en-chihuahua-322320.html",
-            "https://www.omnia.com.mx/noticia/185917",
-            "http://www.chihuahua.gob.mx/contenidos/podemos-pensar-en-regreso-clases-presenciales-el-proximo-ciclo-javier-corral",
-            "http://educacion.chihuahua.gob.mx/",
-            "https://www.elheraldodechihuahua.com.mx/local/chihuahua/manana-inicia-el-ciclo-escolar-2021-2022-escuelas-regreso-a-clases-virtual-7067337.html"
+            "https://www.omnia.com.mx/noticia/191630/regreso-a-clases-sera-coordinado-con-la-federacion-corral",
+            "http://www.chihuahua.gob.mx/contenidos/inician-32-mil-docentes-y-personal-administrativo-actividades-del-nuevo-ciclo-escolar-en",
+            "https://www.excelsior.com.mx/nacional/capacitan-a-maestros-de-chihuahua-para-regreso-a-clases-presenciales/1465697"
         ],
         color: StateBack2School
     },
@@ -154,15 +144,14 @@ var DataStates = [
         docentesVacunadosPorcentaje: "100",
         alumnosVacunados: "NO",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "El gobierno de Nuevo León no ve posible el regreso físico a las aulas el próximo 30 de agosto al inicio del ciclo escolar, porque se está en lo más complicado de la pandemia. Sin embargo, Amalia Becerra, Subdirectora del Hospital Metropolitano asegura que no es una postura definitiva.  La Subdirectora del Hospital Metropolitano señaló que todavía no es un hecho la respuesta negativa en cuanto al tema del regreso a las aulas para los alumnos a tomar clase a partir del 30 de agosto.  En tanto, la secretaria de Educación, María de los Ángeles Errisúriz, dijo que la secretaría está lista para iniciar el ciclo escolar, en cualquier modalidad que determinen las autoridades sanitarias.",
+        actividadesPresenciales: "Este miércoles comenzaron las labores de limpieza en las escuelas públicas de Nuevo León, como parte de los planes para un posible regreso a clases presenciales por parte de la Secretaría de Educación a finales de este mes. <br><br> La titular de la secretaría de Educación, María de los Ángeles Errizúris, dijo que tendrán a partir de hoy y hasta el 13 de agosto jornadas de limpieza en los planteles del estado de cara al inicio del próximo ciclo escolar. ''Esto nos permite ir teniendo listos los espacios para un posible regreso a las aulas''. El Bronco aseguró que no puede prometer el regreso a la presencialidad mientras la pandemia no sea controlada en el estado, puesto que no puede exponer a los infantes a contagiarse por asistir a los centros educativos. Jaime Rodríguez, Gobernador del estado, notificó a los alcaldes metropolitanos que la siguiente semana se reunirá con el Consejo de Educación para tomar una decisión respecto al regreso o no a clases presenciales.<br><br> El mandatario afirmó que como primera etapa se hizo el diagnóstico de los planteles, en los que ya se trabaja en su reparación, sin embargo ahora está en el proceso del consenso con maestros y padres de familia que son los que estarán expuestos de aprobarse el retorno a las aulas. El secretario de Salud de Nuevo León dijo: ''Nosotros como Gobierno del Estado estamos viendo las condiciones adecuadas para un regreso a clases seguro, hay una fecha programada para el 30 de agosto, estamos trabajando para que esa fecha sea el regreso a clases presenciales''. Aseguró que falta mucho para el regreso a clases presenciales programado para el 30 de agosto, por lo que los maestros y las escuelas se están preparando. <br><br> El funcionario estatal señaló que todavía falta mucho tiempo y las cosas cambian minuto a minuto.",
         aforosFiltrosSanitarios: "La asistencia será de forma híbrida, en el que las aulas estarán a un 30% de su capacidad y los alumnos pueden seguir las clases a distancia.",
         referencias: [
-            "https://www.milenio.com/politica/jaime-rodriguez-dice-padres-no-quieren-regreso-a-clases-presenciales",
-            "https://www.milenio.com/politica/congreso-alza-voz-exige-plan-regreso-clases",
-            "https://www.publimetro.com.mx/mx/nuevo-leon/2021/08/02/jovenes-retoman-sus-actividades-academicas-en-nuevo-leon.html",
-            "https://www.youtube.com/watch?v=yqr1QurjGxA&t=2233s",
-            "https://www.elfinanciero.com.mx/nacional/2021/06/01/cuantos-maestros-y-maestras-han-sido-vacunados-contra-covid-en-mexico-esto-dice-la-sep/",
-            "https://www.infobae.com/america/mexico/2021/08/04/ayudenme-a-decidir-la-insolita-encuesta-de-el-bronco-sobre-el-regreso-a-clases-en-nuevo-leon/"
+            "https://www.excelsior.com.mx/nacional/arranca-limpieza-en-escuelas-de-nl-ante-posible-regreso-a-clases/1465606?utm_source=1465606&utm_medium=contentrelated&utm_campaign=main",
+            "https://www.infobae.com/america/mexico/2021/08/13/el-bronco-aseguro-que-el-regreso-a-clases-presenciales-dependera-del-control-de-la-pandemia-en-nuevo-leon/",
+            "https://d.elhorizonte.mx/local/lunes-analizan-regreso-clases-presenciales-nuevo-leon/4028726",
+            "https://www.posta.com.mx/estados/nuevo-leon/analiza-estado-regreso-a-clases-seguro/"
+
         ],
         color: StateInDefinition
     },
@@ -228,13 +217,13 @@ var DataStates = [
         docentesVacunadosPorcentaje: "100",
         alumnosVacunados: "NO",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "En entrevista, el Gobernador de Durango confirma el compromiso de regresar presencialmente a partir del 30 de agosto, donde se realizará con toda responsabilidad cuidando lo más importante que es la salud de la población, en este caso de los niños, jóvenes y docentes. Al 9 de agosto se dijo aún no había definición oficial, pero el gobernador se había mostrado a favor. De darse el regreso a clases presenciales sería voluntario y en una modalidad híbrida.donde si los padres de familia si deciden enviar a sus hijos deben firmar una carta responsiva. También señaló que es necesario regresar a clases presenciales, siempre y cuando sean garantizadas las condiciones de salud para los colectivos escolares y haya consenso, aunque sería un proceso gradual y voluntario, no se exigiría uniformes escolares, y disminuyendo cupos en las aulas.",
+        actividadesPresenciales: "Se informa en Milenio que el próximo 30 de agosto arrancará el Ciclo Escolar 2021-2022 en el Estado de Durango conforme al calendario oficial de la Secretaría de Educación Pública (SEP). En la Región Lagunera el regreso a las escuelas será de manera voluntaria, y en caso de aquellos padres de familia que prefieran mantener a los hijos en casa, la educación continuará a través de los medios virtuales. Las escuelas que abrirán solamente serán aquellas que cuenten con el servicio de energía eléctrica y agua potable. <br><br>Otro de los factores para reactivar las clases presenciales, es que cada escuela deberá contar con las condiciones para cumplir con los nueve protocolos sanitarios establecidos por la SEP. Previo al retorno a las aulas se hace una revisión a cada edificio educativo, dentro de la “Jornada Nacional de Regreso Seguro a Las Escuelas”. <br><br>También como parte de estas acciones, el pasado lunes el gobernador José Rosas Aispuro y el Secretario de Educación Rubén Calderón Lujan se reunieron con las representaciones sindicales para crear comisiones junto con los comités de participación y salud escolar para realizar las inspecciones y revisiones en las escuelas y garantizar el regreso seguro.        El  gobernador José Rosas Aispuro Torres reiteró que en  Durango continúan los trabajos de preparación con los padres de familia y maestros para generar un regreso a clases seguro en este mes de agosto.       El regreso a clases este 30 de agosto será de forma presencial y voluntario siempre y cuando estén dadas las condiciones de cada plantel. Los servicios de agua y luz serán determinantes, anunció el subsecretario de Educación en La Laguna, Cuitláhuac Valdés, quien consideró que es impostergable hacerlo, sobre todo por la salud mental de los alumnos, así como su formación académica.",
         aforosFiltrosSanitarios: "No disponible",
         referencias: [
-            "https://www.radioformula.com.mx/audio-y-video/audio/20210810/gobernador-de-durango-reitera-el-regreso-a-clases-presenciales-para-el-30-de-agosto/",
-            "https://www.heraldodeportes.com.mx/tendencias/2021/8/11/sep-que-estados-aun-no-definen-si-habra-regreso-clases-el-30-de-agosto-18751.html",
-            "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/durango/",
-            "https://www.elsoldedurango.com.mx/local/es-necesario-regreso-a-clases-presenciales-aispuro-7053424.html"
+            "https://www.milenio.com/estados/clases-presenciales-en-la-laguna-de-durango-fecha-cuando-sera",
+            "http://www.noticierosgrem.com.mx/si-hay-condiciones-para-regreso-a-clases-seguro-en-durango-gobernador/",
+            "https://www.elsiglodetorreon.com.mx/noticia/1969333.durango-condiciona-el-regreso-a-clases-presenciales-al-estado-de-aulas.html"
+
         ],
         color: StateBack2School
     },
@@ -649,14 +638,13 @@ var DataStates = [
         docentesVacunadosPorcentaje: "100",
         alumnosVacunados: "NO",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "Las autoridades educativas de Oaxaca están llevando pláticas con padres de familia de todos lo municipios. De darse el regreso a clases será de forma presencial, voluntario, gradual y escalonado.<br><br> De acuerdo con la Circular N. SGE.DPE/003/2021, se exhorta a actuar con apego al semáforo epidemilógico. El regreso presencial a clases será cuando el semáforo se encuentre en verde y el proceso de consenso. Otros medios han indicado que de regresar a la presencialidad seria voluntario y paulatino e inciaria a finales del mes de agosto",
+        actividadesPresenciales: "El gobernador de Oaxaca, Alejandro Murat Hinojosa, afirmó que aún no termina el proceso de consulta con los padres de familia y profesores en los 570 municipios de la entidad para determinar, ante la pandemia por COVID 19, un regreso a clases presencial o virtual, en las 13 mil escuelas del nivel de educación básica, ante el inicio del nuevo ciclo escolar el próximo 30 de agosto. <br><br>Aclaró que primero está la salud y la vida de todos aquellos actores que están involucrados en el proceso educativo, desde los maestros, los padres de familia y hasta la niñez y los jóvenes.",
         aforosFiltrosSanitarios: "Se implementa un proceso integral y amplio de rehabilitación de baños, y de suministro de agua potable para que estén listas para aplicar el protocolo sanitario anticovid y se pueda reanudar las clases presenciales en los tiempos que reclama el plan de reanudación de actividades escolares después de la pandemia por el SARS-COV-2. <br><br> Milenio informa que en el estado de Oaxaca el regreso a clases de forma presencial será voluntario, gradual y escalonado debido a la pandemia de covid-19; sin embargo se sigue tratando de establecer acuerdos.   El magisterio de la Sección 22 de la CNTE definirá el próximo 18 de agosto la probable fecha y la estrategia para el retorno presencial a las aulas en los 570 municipios de la entidad. Ahí discutirán la propuesta del Instituto Estatal de Educación Pública de Oaxaca, (IEEPCO).",
         referencias: [
-            "https://www.youtube.com/watch?v=mr3BZC1o9kM",
-            "http://cuartaplana.com/2021/08/El-18-de-agosto-la-S-22-definira-fecha-y-estrategia-para-el-retorno-presencial-a-clases/",
-            "https://mexico.as.com/mexico/2021/08/02/actualidad/1627869115_989386.html",
-            "https://planeacion.sep.gob.mx/entidadfederativa.aspx",
-            "https://www.marca.com/claro-mx/trending/2021/08/03/6109ade946163fda2b8b45fb.html"
+            "https://www.milenio.com/estados/oaxaca-murat-consulta-padres-regreso-clases-presenciales",
+            "http://oaxacadiaadia.com/2021/08/12/regreso-a-clases-en-oaxaca-sera-seguro-murat/",
+            "https://www.estado20.mx/2021/08/12/28575"
+            
         ],
         color: StateInDefinition
     },
@@ -692,15 +680,10 @@ var DataStates = [
         docentesVacunadosPorcentaje: "100",
         alumnosVacunados: "NO",
         nombreEstrategia: "No disponibles",
-        actividadesPresenciales: "Antes del inicio escolar se organizarán reuniones escolares para determinar la forma en que regresarán los alumnos a las escuelas. De manera general, el regreso a las escuelas será en grupos pequeños, de manera alternada y con las recomendaciones sanitarias correspondientes. Fechas de inicio en media superior: Colegio de Bachilleres inician el 06 de septiembre. <br> Bachilleratos tecnológicos inician el 06 de septiembre. <br> Conalep inician el 30 de agosto. <br> Inicio de clases en educación superior: Las instituciones de educación superior estarán iniciando el ciclo escolar conforme su propio calendario institucional. Por lo que este nivel educativo tendrá varias fechas de inicio. Para el 06 de septiembre, todas las universidades ya deben estar con sus actividades académicas. <br><br>  La Universidad Autónoma de Chiapas (UACH) iniciará el ciclo escolar el 09 de agosto con una modalidad de clases presencial mixta. Los alumnos llevarán sus clases en línea, mientras que las prácticas de talleres y laboratorio se realizarán en grupos pequeños a no más del 30%, escalonados y con sana distancia.",
+        actividadesPresenciales: "Vocero de la Sección VII del Sindicato Nacional de Trabajadores de la Educación y de la Coordinadora Nacional de Trabajadores de la Educación dijo en mitin que no se regresará a clases presenciales a partir de este 30 de agosto en que iniciaría el ciclo escolar 2020-2021.",
         aforosFiltrosSanitarios: "Medidas para el Regreso a Clases: <ol><li>Uso general de cubrebocas obligatorio. <li> Sana distancia en actividades al interior de los planteles, así como en las entradas y salidas. </li> <li> Recreos escolares escalonados</li> <li> Lugares fijos alternados.</li> <li> Asistencia alternada por apellido.</li> <li> Considera que tus hijos deberán acudir a clases sin fiebre o temperatura mayor a 37°. Estando dentro de la escuela, deberán lavarse frecuentemente las manos o utilizar gel antibacterial y los grupos no podrán ser mayor a 25 alumnos</li></ol>",
         referencias: [
-            "https://www.unomasuno.com.mx/regreso-a-clases-en-chiapas-el-proximo-ciclo-escolar/",
-            "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/chiapas/",
-            "https://planeacion.sep.gob.mx/entidadfederativa.aspx",
-            "https://www.eluniversal.com.mx/estados/regreso-clases-presenciales-en-chiapas-sera-el-proximo-30-de-agosto-anuncian-autoridades",
-            "https://desdepuebla.com/2021/08/07/regreso-a-clases-es-inminente-en-chiapas-pese-al-incremento-de-casos-de-covid-salud-reducira-aforo-en-restaurantes-y-centros-de-entretenimiento/",
-            "http://www.areopago.mx/chiapas/29376-cobach-prepara-retorno-a-clases-presenciales"
+            "https://www.elheraldodechiapas.com.mx/local/cnte-no-regresara-a-clases-de-manera-presencial-javier-carrasco-7077824.html"
         ],
         color: StateBack2School
     },  
