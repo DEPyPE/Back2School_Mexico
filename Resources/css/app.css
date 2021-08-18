@@ -16,7 +16,9 @@ body{
     left: 30px;
 */
 
-
+#test-slider{
+    z-index: 12 !important;
+}
 
 .table-information-per-state{
     width: 100% !important;
