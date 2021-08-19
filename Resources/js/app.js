@@ -313,8 +313,8 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Modelo hibrido y opcional de regreso a clases-Regreso a clases presenciales",
-        actividadesPresenciales: "Gobierno estatal anunció que el regreso a las aulas en educación básica será el próximo 30 de agosto, a través de un modelo híbrido y opcional para las familias, que permitirá tener clases presenciales, mientras que en educación media superior y superior se regresará a distancia en agosto y en septiembre de manera presencial; la Universidad de Guadalajara comenzará su ciclo escolar 2021-B de forma virtual el 10 de agosto y será a finales de este mes cuando analice la posibilidad de iniciar la fase presencial el 15 de septiembre. <br><br>La Universidad de Guadalajara mantiene modelo a distancia. <br><br>El regreso a clases será presencial, pero las familias de los estudiantes decidirán si envían o no a sus hijas o hijos a la escuela  Jalisco solicitará a la federación reforzar la vacunación en el AMG en jóvenes de 15 a 30 años, quienes forman parte de la educación media y media superior  <br><br>Por otro lado, indican estar sujetos al semaforo epidemiológico.",
-        aforosFiltrosSanitarios: "Elas principales acciones son el uso del cubrebocas es obligatorio para todos los niveles y sana distancia<br>Por otro lado, se emiten protocolos detallados para todos los niveles y actividades:<br>Protocolo de acción ante COVID-19 para Grupos de Seguimiento Académico, Trámites presenciales y Entrega de materiales educativos aplicable a Educación Básica, Media Superior y Superior Docente<br>Protocolo de actuación ante COVID-19 Sector Educativo para Actos Académicos Presenciales en escuelas de Educación Básica de la Secretaría de Educación del Estado de Jalisco.<br>Protocolo de acción ante COVID-19 Para centros de formación para el trabajo, educación continua y academias.<br>Protocolo de actuación ante COVID-19 Sector Educativo para la realización de exámenes presenciales del Sistema de Preparatoria Abierta.<br>Protocolo de actuación ante COVID-19 Sector Educativo para la atención de actividades esenciales en Educación Media Superior.<br>Protocolo de Acción ante COVID-19 para realizar Educación Física en los planteles escolares",
+        actividadesPresenciales: "El mandatario, Enrique Alfaro reitera que el 30 de agosto habrá retorno a las escuelas. “La manera como crecieron de manera rapidísima los contagios en niños, pero justamente en el período de vacaciones, el momento en el que más crecen los contagios es justamente en este periodo , y afortunadamente el número de contagios en niños ha iniciado su descenso en las últimas semanas, por lo cual reiteramos y sostenemos que el regreso a clases presenciales se sostiene",
+        aforosFiltrosSanitarios: "En las principales acciones son: el uso del cubrebocas es obligatorio para todos los niveles y sana distancia<br>Por otro lado, se emiten protocolos detallados para todos los niveles y actividades:<br>Protocolo de acción ante COVID-19 para Grupos de Seguimiento Académico, Trámites presenciales y Entrega de materiales educativos aplicable a Educación Básica, Media Superior y Superior Docente<br>Protocolo de actuación ante COVID-19 Sector Educativo para Actos Académicos Presenciales en escuelas de Educación Básica de la Secretaría de Educación del Estado de Jalisco.<br>Protocolo de acción ante COVID-19 Para centros de formación para el trabajo, educación continua y academias.<br>Protocolo de actuación ante COVID-19 Sector Educativo para la realización de exámenes presenciales del Sistema de Preparatoria Abierta.<br>Protocolo de actuación ante COVID-19 Sector Educativo para la atención de actividades esenciales en Educación Media Superior.<br>Protocolo de Acción ante COVID-19 para realizar Educación Física en los planteles escolares",
         referencias: [
             "https://www.jalisco.gob.mx/es/prensa/noticias/129538",
             "https://www.jalisco.gob.mx/es/prensa/noticias/127052",
@@ -355,7 +355,7 @@ var DataStates = [
         docentesVacunadosPorcentaje: "85.5",
         alumnosVacunados: "NO",
         nombreEstrategia: "Guanajuato educado con R de Reactivación. Regreso a las aulas.",
-        actividadesPresenciales: "El secretario reiteró la disposición de las autoridades para que las actividades escolares sean retomadas el 30 de agosto, donde continuarán con el pilotaje que comenzó en marzo y que ha incrementado gradualmente. <br><br> El estado implemento ejercicio piloto ''regreso a las aulas'' , bajo esta experiencia se prevee continuar con un retorno presencial el proximo ciclo",
+        actividadesPresenciales: "El gobernador de Guanajuato reiteró que el regreso será voluntario, siempre con la voluntad de los padres y un monitoreo constante del tema de salud.",
         aforosFiltrosSanitarios: "Cuenta con protocolos y guias de salud para el regreso a la escuela (Básica, Media superior y superior), las cuales incluyen:<ol><li>Uso obligatorio de cubrebocas.</li><li>4 filtros sanitarios.</li><li>sana distancia.</li><li>Limpieza de areas y mobiliario.</li> <li>Prupos reducidos.</li></ol>",
         referencias: [
             "https://www.seg.guanajuato.gob.mx/RegresoalasAulas/SitePages/Inicio.aspx",
@@ -401,7 +401,7 @@ var DataStates = [
         docentesVacunadosPorcentaje: "99",
         alumnosVacunados: "NO",
         nombreEstrategia: "Regreso Seguro a Clases en los centros educativos en el marco de la pandemia COVID 19, Operativo Escudo, Hidalgo Seguro",
-        actividadesPresenciales: "El presidente de la Asociación Estatal de Pdres de Familia, AEPF, afirmó que no hay fecha definitiva para el regreso a clases debido en Hidalgo a la situación de emergencia sanitaria. Son los padres de familia quienes tendrían la última palabra pues se requiere un concenso.De acuerdo a anuncios del gobernador de dicho estado en julio, pidió a las instituciones educativas públicas y privadas del estado postergar las clases presenciales en el estado, debido al incremento de casos de Covid-19 en los últimos días. <br><br> El secretario de Salud de Hidalgo, Efraín Benítez Herrea, señaló que en estos momentos no existen condiciones para el regreso a clases presenciales en la entidad. El funcionario indió que la situación epidemiológica actual no permite el retonrno, programado para finales de agosto, algo que ha dialogado con el titular d ela SEPH, Atilano Rodríguez",
+        actividadesPresenciales: "Al inicio del Ciclo Escolar 2021-2022 se realizará un periodo de valoración diagnóstica y reforzamiento de aprendizajes. Esto con el propósito de identificar posibles casos de ausentismo y evitar el abandono escolar. También acordaron que las escuelas públicas del Sistema Educativo Nacional implementarán 10 acciones para “promover y coadyuvar a la seguridad, salud e higiene de la comunidad escolar”. <br><br>Estas acciones incluyen que los padres de familia o tutores que decidan enviar de manera voluntaria a sus hijos a la escuela deberán firmar una carta compromiso de asistencia voluntaria y corresponsabilidad que será entregada a la autoridad escolar correspondiente. Coincidieron también en mantener el uso de tecnologías y otros materiales y herramientas educativas para fortalecer el proceso de enseñanza-aprendizaje.",
         aforosFiltrosSanitarios: "Filtros escolares, suspensión de registro de entrada y salida de toda la comunidad educativa (alumnos, docentes, personal administrativo y personal de apoyo a la educación , asi como al publico en general) que conlleve el empleo de instrumentos ocmpartidos, cada  institución definira el control de asistencia laboral, limpieza intensiva y desinfección continua de todas las areas de los centros educativos, ventilación en todas las areascampaas de comunicación , dichas estrtegias coordinadas por el Comite Participativo de Salud Escolar (CPSE) ",
         referencias: [
             "https://periodico.hidalgo.gob.mx/?p=44435",
@@ -447,10 +447,12 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Escuela abierta",
-        actividadesPresenciales: "En recientes declaraciones: El gobernador Silvano Aureoles Conejo anunció que en Michoacán no hay condiciones para que niños y niñas regresen a clases presenciales, debido al incremento de contagios de Covid-19 en esta tercera ola. <br>Enfatizó que las condiciones de contagio, y el semáforo naranja en el estado, indican que el regreso a clases sólo puede suceder en nivel de bachillerato y universidades. Reiteró que en ese sentido, todavía no hay condiciones para que niñas y niños acudan a las escuelas de educación básica.",
+        actividadesPresenciales: "La postura de los agremiados a la SNTE es de esperar a que baje la ola de contagios de Covid-19: "por el momento yo les digo que no retornamos, no existen condiciones", expresó Macedo Negrete. La Secretaría de Educación en el Estado (SEE) reafirma que el inicio del próximo Ciclo Escolar 2021-2022, será “a la distancia” y se preparan dos diagnósticos para proyectar cuando habrá condiciones del retorno presencial, en tanto en educación media superior y superior, habrá mejores condiciones para un modelo híbrido o retorno presencial a través de protocolos. estaremos haciendo dos diagnósticos muy recientes uno en las semanas siguientes, antes de iniciar el ciclo escolar, para ratificar esta determinación; otro diagnóstico será 15 días después de iniciado el ciclo escolar para que en la segunda semana de septiembre saber qué condiciones privan en la entidad.",
         aforosFiltrosSanitarios: "El gobernador de Michoacan alertó que un regreso a clases presenciales en primarias y secundarias, aumentará la movilidad de manera muy considerable, y el riesgo de las familias. Ello, describió, por los traslados y contacto que implica llevar, entregar y recoger a los hijos e hijas en las escuelas.",
         referencias: [
-            "https://www.eluniversal.com.mx/estados/en-michoacan-no-hay-condiciones-para-regreso-clases-presenciales-aureoles"
+            "https://www.eluniversal.com.mx/estados/en-michoacan-no-hay-condiciones-para-regreso-clases-presenciales-aureoles",
+            "https://www.lavozdemichoacan.com.mx/michoacan/educacion/ciclo-escolar-2021-2022-inicia-a-la-distancia-en-educacion-basica-confirma-la-see/"
+
         ],
         color: StateNoBack2School
     },
@@ -527,7 +529,7 @@ var DataStates = [
         id: "MX-MEX",
         name: "Estado de México",
         regresoActividadesPresenciales: "Si",
-        fechaRetorno: "Fecha no definida",
+        fechaRetorno: "Sin información",
         tipoModelo: "Híbrido",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
@@ -535,7 +537,7 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Plan de Reapertura de regreso a clases 2020*",
-        actividadesPresenciales: "Gerardo Monroy Serrano, secretario de Educación del Estado de México anunció de manera oficial que el regreso a clases para el ciclo escolar 2021-2022 en el Edomex se dará de manera híbrida. Explicó que aquellos que opten por las clases presenciales, deberán cumplir estos lineamientos y medidas de prevención. Las escuelas dividirán los grupos en dos para reducir la cantidad de alumnos en las aulas, pues lo que se busca es que los salones no tengan más de 15 alumnos. Unos niños vendrán lunes, miércoles y viernes, y otros el martes y jueves. A la semana siguiente, los que fueron tres días, irán solo martes y jueves y los que fueron dos días, irán lunes, miércoles y viernes, explicó. <br><br>En 2020, presento el plan de reapertura de regreso a clases. Sin embargo, el ciclo pasado fue a distancia y aun no existe una postura definida para el ciclo 21-22. De acuerdo con el COMUNICADO SEB 07/06/2021-Regreso seguro a clases. Indica que deben cumplirse condiciones para asegurar el regreso, pero no confirmando una fecha para la incorporación presencial. <br><br>El secretario de Educación del Estado de México, Gerardo Monroy Serrano, informó que se prevé que el inicio del ciclo escolar 2021-2022, programado para el 30 de agosto se dé de forma híbrida, es decir, retomando actividades presenciales de manera voluntaria, además de continuar con clases y actividades educativas a distancia, haciendo uso de las plataformas digitales. https://www.milenio.com/ciencia-y-salud/regreso-a-clases-sera-presencial-y-a-distancia-seduc",
+        actividadesPresenciales: "El retorno presencial a las aulas será voluntario, escalonado y tomando todas las medidas preventivas. Desde la semana pasada el personal docente regresó a laboral formalmente para organizar el proceso de inscripción que arrancará este lunes. La mayoría de las escuelas retomó comunicación de manera virtual con los padres de familia.",
         aforosFiltrosSanitarios: "Se emite la Guía de Orientación para la Reapertura de las Escuelas ante COVID-19, en la cual indica la implementación del  Comité Participativo de Salud Escolar. <br><br> Aplicación de protocolos y filtros de corresponsabilidad en casa, a la entrada del plantel y en el salón de clases",
         referencias: [
             "https://subeducacionbasica.edomex.gob.mx/sites/subeducacionbasica.edomex.gob.mx/files/files/SEBComunicado07062021.pdfhttps://www.unionedomex.mx/articulo/2021/07/08/educacion/regreso-clases-edomex-2021-2022-conoce-las-actividades-previas",
@@ -590,11 +592,14 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Regreso a clases",
-        actividadesPresenciales: "Se esta por definir el regreso presencial, Fernando Salgado Delgado -líder de la agrupación de maestros “El poder de la Educación y la Sociedad”- manifestó tajante que no puede haber retorno si los docentes, padres de familia y estudiante no están vacunados en su totalidad. <br><br>Además, entre los puntos expuestos destaca la exigencia de que para tomar una decisión se necesita que previamente se garanticen recursos para infraestructura, pero también para personal de intendencia y seguridad, para mantener condiciones de salubridad en cada centro escolar y controlar los accesos y filtros.",
+        actividadesPresenciales: "Se estan coordinando con la Secretaría de Gobernación que realiza con gobernadores, la Secretaría de Salud y de Educación de los estados y se esta analizando todos los escenarios, además mecniona que será relevante la opinión de los padres de familia. <br><br> El periodo de inscripciones y reinscripciones será del 16 de agosto al 10 de septiembre, mientras que las sesiones del Comité Participativo de Salud Escolar, así como las jornadas de limpieza en escuelas serán del 11 al 13 de agosto de 2021. con el fin de estar listo para el inicio de ciclo",
         aforosFiltrosSanitarios: "Terminó en julio el Programa Piloto de Regreso a Clases Presenciales Seguras, voluntarias, escalonadas y graduales sin incidente alguno para todos los que participaron en este proyecto: alumnos, padres de familia, docentes, administrativos y personal de apoyo",
         referencias: [
-            "https://www.milenio.com/estados/michoacan-iniciara-ciclo-escolar-clases-presenciales",
-            "https://launion.com.mx/morelos/avances/noticias/187385-avanza-entrega-de-libros-de-texto-2021-2022-en-escuelas-iebem.html"
+            "https://morelos.gob.mx/?q=prensa/nota/comunicado-de-prensa-secretaria-de-educacion-3",
+            "https://elqueretano.info/trafico/presentan-calendario-escolar-2021-2022-para-morelos/",
+            "https://mexico.as.com/mexico/2021/07/30/actualidad/1627609664_758632.html",
+            "https://www.milenio.com/estados/morelos-analiza-posible-regreso-a-clases-presenciales",
+            "https://mexico.as.com/mexico/2021/07/30/actualidad/1627609664_758632.html"            
 
         ],
         color: StateInDefinition
@@ -611,17 +616,15 @@ var DataStates = [
         docentesVacunadosPorcentaje: "64.3",
         alumnosVacunados: "NO",
         nombreEstrategia: "De regreso a la escuela",
-        actividadesPresenciales: "El CETEG informó que el regreso a clases presenciales se reanudarán hasta que haya semáforo verde, el 100 por ciento del magisterio vacunado y exista un consenso con los padres de familia. <br><br> El próximo 31 de agosto arrancará de manera presencial el ciclo escolar 2021-2022 en casi 12 mil escuelas de Guerrero. regreso a clases será de manera gradual y escalonada.<br><br> Sin embargo, en notas recientes  se refirió que de no haber un cambio en el semáforo epidemiológico a color verde, habría posibilidad de estar frente a grupo, caso contrario, tendrán que seguir con el modelo a distancia.<br><br> Miembros de la Coordinación Estatal de Trabajadores de la educación en Guerrero (CETEG) informó que se realizará consulta a los padres de familia respecto al regreso a clases presenciales , el próximo 30 de agosto, a pesar de la pandemia.",
+        actividadesPresenciales: "Se regresará a clases presenciales solo 17 de 81 municipios donde existe el menor número de contagios, que son un total de 877 escuelas de nivel Básico, Media Superior y Superior  se pueden abrir , acercando un total de 17mil  485 alumnos  puedan  regresar  a la normalidad en esos lugares. También se indicó ''dónde no haya acuerdo entre padres de familia y maestros simplemente no se hará el regreso a clases''. <br><br> El CETEG informó que el regreso a clases presenciales se reanudarán hasta que haya semáforo verde, el 100 por ciento del magisterio vacunado y exista un consenso con los padres de familia. <br><br> El próximo 31 de agosto arrancará de manera presencial el ciclo escolar 2021-2022 en casi 12 mil escuelas de Guerrero. regreso a clases será de manera gradual y escalonada.<br><br> Sin embargo, en notas recientes  se refirió que de no haber un cambio en el semáforo epidemiológico a color verde, habría posibilidad de estar frente a grupo, caso contrario, tendrán que seguir con el modelo a distancia.<br><br>Miembros de la Coordinación Estatal de Trabajadores de la educación en Guerrero (CETEG) informó que se realizará consulta a los padres de familia respecto al regreso a clases presenciales , el próximo 30 de agosto, a pesar de la pandemia.",
         aforosFiltrosSanitarios: "Se considerarán tres factores: que el estado se mantenga permanentemente en el color verde en el Semáforo de Riesgo Epidemiológico; que las escuelas cuenten con un protocolo sanitario, un plan escolar que refleje la organización administrativa y académica del plantel, y el fortalecimiento académico a través de una guía estatal para el regreso a clases y el cronograma de actividades para la apertura de escuelas en todos los niveles. <br><br> Por otro lado, los trabajadores de la educación hayan sido vacunados y que el semáforo epidemiológico esté en verde.",
         referencias: [
-            "https://heraldodemexico.com.mx/nacional/2021/6/22/guerrero-anuncia-regreso-clases-presenciales-en-agosto-309005.html",
-            "https://www.elsoldemexico.com.mx/republica/sociedad/regreso-a-clases-presenciales-en-guerrero-sera-el-3-de-septiembre-preve-gobernador-pandemia-covid-19-6819985.html",
-            "https://www.elsoldeacapulco.com.mx/local/complicado-el-regreso-a-clases-presenciales-en-guerrero-escuelas-pandemi-contagios-covid-guerrero-7039433.html",
             "https://snte.org.mx/seccion14/snte-condiciona-el-regreso-a-clases-presenciales-en-guerrero/",
             "https://snte.org.mx/seccion14/con-seguridad-volvemos-a-la-escuela-snte/",
-            "https://www.elsoldeacapulco.com.mx/local/complicado-el-regreso-a-clases-presenciales-en-guerrero-escuelas-pandemi-contagios-covid-guerrero-7039433.html",
-            "https://suracapulco.mx/consultara-a-los-padres-respecto-al-regreso-a-clases-presenciales-adelanta-la-ceteg/",
-            "https://www.milenio.com/estados/guerrero-regreso-clases-presenciales-semaforo-verde"
+            "https://www.milenio.com/estados/guerrero-regreso-clases-presenciales-semaforo-verde",
+            "https://www.elfinanciero.com.mx/estados/2021/08/15/solo-en-17-de-81-municipios-guerrerenses-con-bajo-covid-se-volvera-a-clases-presenciales/",
+            "https://guerrero.quadratin.com.mx/guerrero-tendra-regreso-a-clases-presenciales-voluntario-astudillo/"
+            
         ],
         color: StateInDefinition
     },
