@@ -447,12 +447,11 @@ var DataStates = [
         docentesVacunadosPorcentaje: "SP",
         alumnosVacunados: "NO",
         nombreEstrategia: "Escuela abierta",
-        actividadesPresenciales: "La postura de los agremiados a la SNTE es de esperar a que baje la ola de contagios de Covid-19: "por el momento yo les digo que no retornamos, no existen condiciones", expresó Macedo Negrete. La Secretaría de Educación en el Estado (SEE) reafirma que el inicio del próximo Ciclo Escolar 2021-2022, será “a la distancia” y se preparan dos diagnósticos para proyectar cuando habrá condiciones del retorno presencial, en tanto en educación media superior y superior, habrá mejores condiciones para un modelo híbrido o retorno presencial a través de protocolos. estaremos haciendo dos diagnósticos muy recientes uno en las semanas siguientes, antes de iniciar el ciclo escolar, para ratificar esta determinación; otro diagnóstico será 15 días después de iniciado el ciclo escolar para que en la segunda semana de septiembre saber qué condiciones privan en la entidad.",
+        actividadesPresenciales: "La postura de los agremiados a la SNTE es de esperar a que baje la ola de contagios de Covid-19: ''por el momento yo les digo que no retornamos, no existen condiciones'', expresó Macedo Negrete. La Secretaría de Educación en el Estado (SEE) reafirma que el inicio del próximo Ciclo Escolar 2021-2022, será “a la distancia” y se preparan dos diagnósticos para proyectar cuando habrá condiciones del retorno presencial, en tanto en educación media superior y superior, habrá mejores condiciones para un modelo híbrido o retorno presencial a través de protocolos. estaremos haciendo dos diagnósticos muy recientes uno en las semanas siguientes, antes de iniciar el ciclo escolar, para ratificar esta determinación; otro diagnóstico será 15 días después de iniciado el ciclo escolar para que en la segunda semana de septiembre saber qué condiciones privan en la entidad.",
         aforosFiltrosSanitarios: "El gobernador de Michoacan alertó que un regreso a clases presenciales en primarias y secundarias, aumentará la movilidad de manera muy considerable, y el riesgo de las familias. Ello, describió, por los traslados y contacto que implica llevar, entregar y recoger a los hijos e hijas en las escuelas.",
         referencias: [
             "https://www.eluniversal.com.mx/estados/en-michoacan-no-hay-condiciones-para-regreso-clases-presenciales-aureoles",
             "https://www.lavozdemichoacan.com.mx/michoacan/educacion/ciclo-escolar-2021-2022-inicia-a-la-distancia-en-educacion-basica-confirma-la-see/"
-
         ],
         color: StateNoBack2School
     },
