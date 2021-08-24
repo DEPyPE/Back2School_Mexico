@@ -39,7 +39,8 @@ var DataStates = [
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/baja-california-sur/",
             "https://www.bcsnoticias.mx/confirmado-baja-california-sur-ya-se-prepara-para-regreso-a-las-aulas-en-agosto-sep/",
             "https://www.elsudcaliforniano.com.mx/local/regreso-a-clases-solo-sera-en-alerta-verde-en-bcs-6987936.html",
-            "http://www.bcs.gob.mx/noticias/concluyo-vacunacion-del-personal-educativo-en-bcs/#:~:text=CONCLUY%C3%93%20VACUNACI%C3%93N%20DEL%20PERSONAL%20EDUCATIVO%20EN%20BCS,-La%20Paz%20B.C.S.&text=Con%20la%20aplicaci%C3%B3n%20de%2017,educativo%20de%20Baja%20California%20Sur"
+            "http://www.bcs.gob.mx/noticias/concluyo-vacunacion-del-personal-educativo-en-bcs/#:~:text=CONCLUY%C3%93%20VACUNACI%C3%93N%20DEL%20PERSONAL%20EDUCATIVO%20EN%20BCS,-La%20Paz%20B.C.S.&text=Con%20la%20aplicaci%C3%B3n%20de%2017,educativo%20de%20Baja%20California%20Sur",
+            "https://www.animalpolitico.com/2021/08/michoacan-hidalgo-rechazan-regreso-clases-presenciales-estados-siguen-evaluando/"
         ],
         color: StateInDefinition
     },
@@ -283,8 +284,8 @@ var DataStates = [
         id: "MX-NAY",
         name: "Nayarit",
         regresoActividadesPresenciales: "SI",
-        fechaRetorno: "10 de agosto",
-        tipoModelo: "A distancia",
+        fechaRetorno: "30 de agosto",
+        tipoModelo: "Híbrido",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
@@ -301,7 +302,10 @@ var DataStates = [
             "https://meridiano.mx/seccion/nayarit/nayarit-no-est-en-condiciones-de-regresar-a-clases-presenciales-educaci-n-1/",
             "https://www.gob.mx/sep/es/articulos/boletin-sep-no-102-concluye-exitosamente-el-proceso-de-vacunacion-a-personal-docente-en-30-entidades-del-pais?idiom=es",
             "https://latinus.us/2021/08/11/regreso-clases-presenciales-estados-volveran-aulas-nuevo-ciclo-escolar/",
-            "https://www.eloccidental.com.mx/local/respalda-seccion-49-retorno-a-clases-presenciales-en-nayarit-7082730.html"
+            "https://www.eloccidental.com.mx/local/respalda-seccion-49-retorno-a-clases-presenciales-en-nayarit-7082730.html",
+            "https://vallartaindependiente.com/2021/08/16/siempre-si-esta-contemplado-el-regreso-a-las-aulas-en-nayarit/",
+            "https://meridiano.mx/articulo/2021-08-16/inminente-regreso-a-clases-presenciales-en-nayarit-este-30-de-agosto-1",
+            "https://www.debate.com.mx/estados/SEP-confirma-regreso-a-clases-presenciales-en-Nayarit-sera-escalonado-y-voluntario-20210819-0227.html"
         ],
         color: StateBack2School
     },
@@ -332,7 +336,7 @@ var DataStates = [
         id: "MX-AGU",
         name: "Aguascalientes",
         regresoActividadesPresenciales: "Si",
-        fechaRetorno: "23 de agosto (por confirmar)",
+        fechaRetorno: "30 de agosto",
         tipoModelo: "Híbrido",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
@@ -435,7 +439,8 @@ var DataStates = [
             "https://www.colimanoticias.com/antes-del-regreso-a-clases-preservar-la-salud-y-vida-del-alumnado-y-docentes-se/",
             "https://diariodecolima.com/noticias/detalle/2021-07-23-flores-colima-est-preparado-para-iniciar-el-ciclo-escolar",
             "https://elcomentario.ucol.mx/elabora-colima-su-estrategia-para-regreso-a-clases-presenciales/",
-            "https://www.gob.mx/sep/es/articulos/boletin-sep-no-102-concluye-exitosamente-el-proceso-de-vacunacion-a-personal-docente-en-30-entidades-del-pais?idiom=es"
+            "https://www.gob.mx/sep/es/articulos/boletin-sep-no-102-concluye-exitosamente-el-proceso-de-vacunacion-a-personal-docente-en-30-entidades-del-pais?idiom=es",
+            "https://diariodecolima.com/noticias/detalle/2021-08-16-la-entidad-lista-para-el-regreso-a-clases-secretario-de-educacin"
         ],
         color: StateInDefinition
     },
