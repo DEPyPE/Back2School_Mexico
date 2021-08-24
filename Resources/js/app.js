@@ -262,21 +262,22 @@ var DataStates = [
         id: "MX-SLP",
         name: "San Luis Potosí",
         regresoActividadesPresenciales: "SI",
-        fechaRetorno: "Sin información",
-        tipoModelo: "A distancia",
-        reincorporacionVoluntaria: "Sin Definir",
+        fechaRetorno: "30 de agosto",
+        tipoModelo: "Híbrido",
+        reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "90",
         alumnosVacunados: "NO",
-        nombreEstrategia: "Sin información",
+        nombreEstrategia: "Protocolo para el regreso seguro a clases",
         actividadesPresenciales: "Aunque los diputados Martha Barajas García y Martín Juárez Córdova coincidieron en que toda la comunidad educativa debe estar protegida y lo mínimo que se requiere es que las escuelas estén en buenas condiciones, con agua, luz, equipo y todo lo necesario para que se cumplan los protocolos sanitarios. No hay un pronunciamiento de la Seccretaria de Educación para confirmar tales  opiniones <br><br>La autoridad educativa federal dará a conocer información para el regreso a clases y en reunión de CONAEDU",
         aforosFiltrosSanitarios: "No habrá regreso a clases presenciales durante el mes de agosto, además recordó que para el regreso a clases presenciales, cuando existan las condiciones sanitarias, se aplicarán nueve intervenciones o medidas para asegurar el bienestar de la comunidad escolar. <br><br> Hubo una reapertura del 15% de escuelas en junio. El saldo fueron dos casos de contagios en docentes y nueve alumnos",
         referencias: [
             "https://slp.gob.mx/sege/Paginas/NOTICIAS/FECHAS-Y-MODALIDAD-DE-REGRESO-A-CLASES--SE-DAR%C3%81N-A-CONOCER-LA-PR%C3%93XIMA-SEMANA.aspx",
             "https://slp.gob.mx/sege/Paginas/NOTICIAS/NO-HAY-REGRESO-A-CLASES-PRESENCIALES-EN-SAN-LUIS-POTOS%C3%8D-SECRETARIO-DE-EDUCACI%C3%93N.aspx",
             "https://www.elsoldesanluis.com.mx/local/confirma-la-sege-el-regreso-a-clases-el-30-de-agosto-en-san-luis-potosi-7073590.html",
-            "https://www.elsoldesanluis.com.mx/local/en-slp-no-hay-condiciones-para-regreso-a-clases-presenciales-7097203.html"
+            "https://www.elsoldesanluis.com.mx/local/en-slp-no-hay-condiciones-para-regreso-a-clases-presenciales-7097203.html",
+            "https://www.slp.gob.mx/sege/PDF/Estrategia%20Estatal%20para%20el%20Regreso%20Seguro%20a%20Clases.pdf"
         ],
         color: StateBack2School
     },
