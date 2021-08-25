@@ -11,6 +11,42 @@ body{
     z-index: 1;
 }
 
+/* Botón para abrir la barra de navegación oculta */
+
+.btn-close-sidenav{
+    position: absolute !important;
+    right: 10px !important;
+    top: 10px !important;
+}
+
+.btn-sidenav{
+    position: absolute;
+    margin-top: 5px !important;
+    padding: 5px 5px 5px 15px !important;
+    color: black !important;
+    z-index: 11 !important;
+}
+
+.icon-close-sidenav{
+    transform: rotate(180deg);
+}
+
+.menu-icon{
+    font-size: 45px !important;
+}
+
+.sidenav-footer{
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+.seg-logo{
+    margin-left: -20px !important;
+    margin-bottom: -20px !important;
+    width: 180px;
+    border-radius: 75px;
+}
+
 /*
     top: 480px;
     left: 30px;

@@ -751,6 +751,7 @@ var DataStates = [
 $(document).ready(function(){
     $('.modal').modal();
     $('.tooltipped').tooltip();
+    $('.sidenav').sidenav();
 
     var c_blue = 0, c_orange = 0, c_yellow = 0, c_gray = 0;
 
