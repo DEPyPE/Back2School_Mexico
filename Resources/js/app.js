@@ -879,9 +879,9 @@ polygonTemplate.events.on("hit", function(ev) {
     $('.alumnosVacunados         ').html("<i class='material-icons icon-color-"+DataActualState.alumnosVacunados+"'>"+DataActualState.alumnosVacunados+"</i>");
 
     if( DataActualState.docentesVacunadosPorcentaje == 'SP' )
-        $('.porcentage_vaccune').text('');
+        $('.porcentage_vaccune').text('Profesores vacunados');
     else
-        $('.porcentage_vaccune').text('('+DataActualState.docentesVacunadosPorcentaje+'%)');
+        $('.porcentage_vaccune').text(''+DataActualState.docentesVacunadosPorcentaje+'% de profesores vacunados');
 
     var TypeSate = DataActualState.color;
     if( TypeSate == "rgba(255, 255,   0, 1)" )
