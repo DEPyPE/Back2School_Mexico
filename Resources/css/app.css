@@ -82,7 +82,7 @@ body{
     width: 450px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 20px 10px 20px;
     color: black;
     border: 1px solid rgb(150, 150, 150);
@@ -179,14 +179,6 @@ td, th {
     margin-bottom: 0;
 }
 
-#ShowStateInformation{
-    width: 65% !important;
-    height: 82% !important;
-    max-height: 82% !important;
-    z-index: 100;
-    top: 50px !important;
-}
-
 #ModifyStateInformation{
     width: 80% !important;
     height: 82% !important;
@@ -195,13 +187,33 @@ td, th {
     top: 50px !important;
 }
 
+#ShowStateInformation{
+    width: 70% !important;
+    height: 82% !important;
+    max-height: 82% !important;
+    z-index: 100;
+    top: 50px !important;
+}
+
+.close-modal-icon{
+    position: fixed !important;
+    top: 10px;
+    right: 10px;
+    z-index: 1000 !important;
+    color: black !important;
+}
+
+.modal.modal-content{
+    z-index: 100 !important;
+}
+
 .title-country-table{
     display: none;
 }
 
 .modal{
 /*    background: linear-gradient(rgba(0, 24, 75, 1) 0%, rgba(0, 24, 75, 1) 25%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 100%) !important; */
-    border-radius: 10px !important;
+    border-radius: 25px !important;
 }
 
 .modal .modal-content{
@@ -213,13 +225,6 @@ td, th {
     color: white;
     margin-bottom: 20px !important;
     padding-bottom: 5px !important;
-}
-
-.close-modal-icon{
-    position: fixed !important;
-    top: 10px;
-    right: 10px;
-    color: black !important;
 }
 
 .no-consider-to-analysis{
