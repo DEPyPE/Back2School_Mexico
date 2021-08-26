@@ -25,6 +25,7 @@ body{
     padding: 5px 5px 5px 15px !important;
     color: black !important;
     z-index: 11 !important;
+    display: none !important;
 }
 
 .icon-close-sidenav{
