@@ -25,7 +25,6 @@ body{
     padding: 5px 5px 5px 15px !important;
     color: black !important;
     z-index: 11 !important;
-    display: none !important;
 }
 
 .icon-close-sidenav{
@@ -48,6 +47,57 @@ body{
     border-radius: 75px;
 }
 
+.timeline-controller div{
+    display: inline-block !important;
+}
+
+.timeline-controller{
+    padding-right: 0px !important;
+}
+
+.sidenav li>div>a>i, .sidenav li>div>a>[class^="mdi-"], .sidenav li>div>a li>div>a>[class*="mdi-"], .sidenav li>a>div>i.material-icons {
+    line-height: 48px;
+    margin: 0 32px 0 0;    
+    color: rgba(0,0,0,0.54);
+}
+
+.timeline{
+    cursor: pointer !important;
+}
+
+.timeline-slider-container{
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    width: 450px;
+    padding: 5px 12px 5px 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 2px rgb(0 0 0 / 22%);
+    border-radius: 5px;
+    z-index: 15;
+    border-radius: 10px;
+    border: 1px solid rgb(150, 150, 150);
+    display: none;
+}
+
+.range-field{
+    margin-bottom: 0 !important;
+}
+
+.timeline-container{
+    margin-top: 15px !important;
+    margin-bottom: 0px !important;
+}
+
+.thumb{
+    display: none !important;
+}
+
+.timeline-container{
+    display: none;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*
     top: 480px;
     left: 30px;

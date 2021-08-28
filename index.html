@@ -30,20 +30,34 @@
 					<a href="#name"><span class="white-text email"></span></a>
 				</div>
 			</li>
-<!--
-			<li><a class="disabled" target="_blank" href="https://depype.github.io/Proyectos_DGEE/"><i class="material-icons left">home</i>Proyectos de la DGEE</a></li>
+
+			<li><a class="" target="_blank" href="https://depype.github.io/Proyectos_DGEE/"><i class="material-icons left">home</i>Proyectos de la DGEE</a></li>
+			<li><div class="divider"></div></li>			
+			<li class="timeline">
+				<a class="timeline-controller">
+					<div> <i class="material-icons left">linear_scale</i> Linea de tiempo </div>
+					<div class="switch right">
+						<label>
+						  <input id="activate-timeline" type="checkbox">
+						  <span class="lever"></span>
+						</label>
+					</div>
+				</a>
+			</li>
+<!--		
 			<li><a class="disabled" href="#!"><i class="material-icons left">lock_outline</i>Iniciar sesión</a></li>
-			<li><div class="divider"></div></li>
 -->
 			<li><a class="waves-effect sidenav-close" href="#!"><i class="material-icons icon-close-sidenav">exit_to_app</i>Cerrar</a></li>
 		</ul>
 		
 		<a href="#" data-target="slide-out" class="sidenav-trigger btn-sidenav"><i class="menu-icon material-icons">menu</i></a>
 
+		<div id="test-slider"></div>
+
 		<div id="map"></div>
 		
 		<section class="section-label-countries">
-			<p class="title-map"> Retorno a clases presenciales en México por entidad federativa (con corte de información al 25 de agosto de 2021) </ṕ>
+			<p class="title-map"> Retorno a clases presenciales en México por entidad federativa (con corte de información al <strong class="fecha_corte"></strong>) </ṕ>
 
 			<div class="label_countries">
 				<div class="blue-square"></div>
@@ -64,7 +78,19 @@
 				<div class="gray-square"></div>
 				<div class="no-start-class-countries label-color-description"> Estados sin información disponible para el regreso a clases presenciales <strong class="sin_informacion"></strong> </div>
 			</div>
+
+			<div class="timeline-container">
+				<div class="divider"></div>
+				<p class="title-timeline-color"> <h6><i class="material-icons left">linear_scale</i> Linea del tiempo del regreso a clases </h6> </p>
+				<div class="color-range-field">
+					<p class="range-field">
+						<input type="range" id="timeline-range" min="1" max="8" value="8"/>
+					</p>
+				</div>
+			</div>
 		</section>
+
+<!--		<div class="timeline-slider-container"></div> -->
 		
 		<!-- MODAL PARA MODIFICAR LA INFORMACIÓN POR ESTADO -->
 		<div id="ModifyStateInformation" class="modal">
