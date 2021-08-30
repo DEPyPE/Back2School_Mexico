@@ -5793,8 +5793,8 @@ var DataStates_v9 = [
     {
         id: "MX-BCS",
         name: "Baja California Sur",
-        regresoActividadesPresenciales: "Si",
-        fechaRetorno: "13 de septiembre",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "Sin información por Huracán Nora",
         tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
@@ -5802,7 +5802,7 @@ var DataStates_v9 = [
         docentesVacunadosPorcentaje: "78.8",
         alumnosVacunados: "Sin Definir",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "Del próximo lunes 30 de agosto, fecha que el calendario oficial marca el inicio del ciclo escolar 2021-2022, al viernes 10 de septiembre, los planteles de enseñanza básica de Baja California Sur realizarán tareas de organización con el objetivo de reanudar las clases el lunes 13 de septiembre, ya sea de manera presencial o en el modelo a distancia, informó el secretario de Educación Pública del Estado, Gustavo Rodolfo Cruz Chávez.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Del próximo lunes 30 de agosto, fecha que el calendario oficial marca el inicio del ciclo escolar 2021-2022, al viernes 10 de septiembre, los planteles de enseñanza básica de Baja California Sur realizarán tareas de organización con el objetivo de reanudar las clases el lunes 13 de septiembre, ya sea de manera presencial o en el modelo a distancia, informó el secretario de Educación Pública del Estado, Gustavo Rodolfo Cruz Chávez.",
         aforosFiltrosSanitarios: "Se capacitaron a los comités participativos de salud escolar, en cada escuela debe de existir un comité de esta naturaleza que se encargará de revisar las condiciones en las cuales se encuentra la escuela, se tendrán algunos filtros y el primero desde luego será la casa, será en el hogar donde se revise la condición de su hijo o hija y tener en claro cuáles son los síntomas COVID, el segundo filtro al entrar a la escuela y el tercero previo a entrar al salón de clases.",
         referencias: [
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/baja-california-sur/",
@@ -5813,21 +5813,21 @@ var DataStates_v9 = [
             "http://www.sepbcs.gob.mx/contenido/boletines/2021/08/2021-08-25_Bol162.pdf"
 
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-BCN",
-        name: "Baja California Norte",
-        regresoActividadesPresenciales: "Si",
-        fechaRetorno: "30 de agosto",
-        tipoModelo: "Híbrido",
+        name: "Baja California",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "13 de septiembre",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "76.30",
         alumnosVacunados: "NO",
         nombreEstrategia: "Regreso Seguro a Clases Presenciales",
-        actividadesPresenciales: "Se preveé que 24 escuelas vuelvan a clases presenciales durante la primera semana del ciclo 2021-2022 (Lunes 30 de agosto) <br><br>La asistencia será voluntaria, gradual y escalonada. Durante septiembre, los planteles se duplicarán semanalmente, de acuerdo a la disposición de escuelas y la autorización de padres de familia. las clases serán en un modelo híbrido entre presenciales y a distancia, ya que los alumnos seleccionados asistirán tres y dos días de la semana, de manera alternada, a partir de la primera letra del apellido.   el regreso a clases será en 24 escuelas (cuatro por municipio y dos públicas y dos privadas), en la segunda semana serán 48; en la siguiente 72 y después 96, de acuerdo a la evolución y monitoreo del manejo de salud. Serán los padres de familia los que aprueben el regreso de clases presenciales de sus hijos.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Se preveé que 24 escuelas vuelvan a clases presenciales durante la primera semana del ciclo 2021-2022 (Lunes 30 de agosto) <br><br>La asistencia será voluntaria, gradual y escalonada. Durante septiembre, los planteles se duplicarán semanalmente, de acuerdo a la disposición de escuelas y la autorización de padres de familia. las clases serán en un modelo híbrido entre presenciales y a distancia, ya que los alumnos seleccionados asistirán tres y dos días de la semana, de manera alternada, a partir de la primera letra del apellido.   el regreso a clases será en 24 escuelas (cuatro por municipio y dos públicas y dos privadas), en la segunda semana serán 48; en la siguiente 72 y después 96, de acuerdo a la evolución y monitoreo del manejo de salud. Serán los padres de familia los que aprueben el regreso de clases presenciales de sus hijos.",
         aforosFiltrosSanitarios: "El regreso a las escuelas de manera presencial, se realizará de forma gradual y segura, incluyendo la realización de jornadas de limpieza previas al ingreso de los estudiantes. las escuelas de cada municipio o poblado serán divididas en áreas que incluyan un centro de salud que se encargará de dar atención a esa región en caso de ser necesario.  Los padres de familia y las escuelas deberán coordinar filtros para evitar la propagación de la enfermedad. en caso de que se detecte un caso sospechoso, el grupo será suspendido por 14 días, mientras que si se confirma un caso de COVID-19 se suspenderán las clases en todo el plantel. Las aulas tendrán un máximo de 10 personas.",
         referencias: [
             "https://www.sandiegouniontribune.com/en-espanol/noticias/bc/articulo/2021-07-26/baja-california-anuncia-regreso-a-clases-presenciales-semaforo-epidemiologico-regional-permanece-verde",
@@ -5837,7 +5837,7 @@ var DataStates_v9 = [
             "https://www.gob.mx/sep/es/articulos/boletin-sep-no-102-concluye-exitosamente-el-proceso-de-vacunacion-a-personal-docente-en-30-entidades-del-pais?idiom=es",
             "https://www.poresto.net/campeche/2021/8/15/regreso-clases-en-campeche-conoce-las-fechas-para-inscripcion-del-ciclo-escolar-2021-2022-272491.html"
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-SON",
@@ -5963,16 +5963,16 @@ var DataStates_v9 = [
     {
         id: "MX-SIN",
         name: "Sinaloa",
-        regresoActividadesPresenciales: "SI",
-        fechaRetorno: "30 de Agosto",
-        tipoModelo: "Híbrido",
+        regresoActividadesPresenciales: "NO",
+        fechaRetorno: "Sin información por huracán Nora",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "90",
         alumnosVacunados: "NO",
         nombreEstrategia: "Por decreto, emiten lineamientos para el regreso a clases en Sinaloa",
-        actividadesPresenciales: "Medios indican: El modelo para el regreso a clases de manera presencial que implementaron Jalisco y Sinaloa desde marzo pasado es un buen esquema a seguir en este regreso a clases a partir del 30 de agosto próximo, señalaron representantes de la Asociación Mexicanos Primero. <br><br> El secretario de Educación Pública y Cultura, Juan Alfonso Mejía López, explicó que en cada una de las escuelas se determinará los días en que se darán las clases presenciales y lar virtuales, es decir, los maestros pueden tener las clases en aulas por una semana y la siguiente en línea, o elegir los días de la semana para cada modalidad.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Medios indican: El modelo para el regreso a clases de manera presencial que implementaron Jalisco y Sinaloa desde marzo pasado es un buen esquema a seguir en este regreso a clases a partir del 30 de agosto próximo, señalaron representantes de la Asociación Mexicanos Primero. <br><br> El secretario de Educación Pública y Cultura, Juan Alfonso Mejía López, explicó que en cada una de las escuelas se determinará los días en que se darán las clases presenciales y lar virtuales, es decir, los maestros pueden tener las clases en aulas por una semana y la siguiente en línea, o elegir los días de la semana para cada modalidad.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.",
         aforosFiltrosSanitarios: "Regreso a las aulas en Sinaloa deberá atender condiciones de cada comunidad. Regreso a clases en Sinaloa será de forma gradual, focalizado y seguro. Experiencia previa de 955 Centros Comunitarios de Aprendizaje, donde se atendió a 26 mil 26 alumnos con rezago educativo. El congreso del Estado tiene la postura de “Estamos ansiosos porque los estudiantes regresen, pero la tercera ola de contagios es alarmante, ante este panorama es necesario que las autoridades actúen con prudencia: no hay condiciones del regreso seguro a las aulas",
         referencias: [
             "https://mieducacion.sepyc.gob.mx/sinaloa-coincide-con-el-presidente-andres-manuel-lopez-obrador-el-regreso-a-clases-es-por-el-convencimiento-nada-por-la-fuerza/",
@@ -5981,7 +5981,7 @@ var DataStates_v9 = [
             "https://www.elsoldemazatlan.com.mx/local/regreso-a-clases-en-sinaloa-sera-en-modalidad-mixta-7045888.html",
             "https://www.elsoldemazatlan.com.mx/local/regreso-a-clases-en-sinaloa-sera-en-modalidad-mixta-7045888.html"
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-DUR",
@@ -6201,16 +6201,16 @@ var DataStates_v9 = [
     {
         id: "MX-COL",
         name: "Colima",
-        regresoActividadesPresenciales: "Si",
-        fechaRetorno: "30 de agosto",
-        tipoModelo: "Híbrido, según sea el caso",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "Sin información por Huracán Nora",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "93.5",
         alumnosVacunados: "NO",
         nombreEstrategia: "Estrategia Estatal de Regreso Seguro a Clases Presenciales",
-        actividadesPresenciales: "Para el ciclo 2021-2022 se tomarán en cuenta tres modalidades para el regreso a clases presenciales. La primera modalidad  es el retorno a actividades presenciales de forma total en los planteles cuya densidad demográfica sea muy baja, como en las escuelas multigrado y comunitarias, con grupos de menos de 20 alumnos.  <br><br>La segunda modalidad es un regreso gradual y escalonado para escuelas de comunidades semi urbanas, con densidad mediana, en donde hay grupos de menos de 25 alumnos; ahí los docentes podrán dividir por orden alfabético los grupos, para que la mitad asista lunes y miércoles, la otra mitad martes y jueves, y dejar el viernes para atender casos de rezago educativo.  Y  la tercera modalidad es la mixta, para escuelas urbanas donde tienen grupos mayores de 25 alumnos; ahí será decisión del colectivo escolar determinar o combinar las actividades presenciales con la estrategia a distancia.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Para el ciclo 2021-2022 se tomarán en cuenta tres modalidades para el regreso a clases presenciales. La primera modalidad  es el retorno a actividades presenciales de forma total en los planteles cuya densidad demográfica sea muy baja, como en las escuelas multigrado y comunitarias, con grupos de menos de 20 alumnos.  <br><br>La segunda modalidad es un regreso gradual y escalonado para escuelas de comunidades semi urbanas, con densidad mediana, en donde hay grupos de menos de 25 alumnos; ahí los docentes podrán dividir por orden alfabético los grupos, para que la mitad asista lunes y miércoles, la otra mitad martes y jueves, y dejar el viernes para atender casos de rezago educativo.  Y  la tercera modalidad es la mixta, para escuelas urbanas donde tienen grupos mayores de 25 alumnos; ahí será decisión del colectivo escolar determinar o combinar las actividades presenciales con la estrategia a distancia.",
         aforosFiltrosSanitarios: "Se conformará un comité de salud en cada escuela, filtros al ingreso al plantel, abastecer de agua y jabón, uso obligatorio de mascarilla, cuidado de grupos vulnerables y cuando se detecte algún caso de coronavirus, el plantel cerraría de forma inmediata.",
         referencias: [
             "https://www.milenio.com/estados/colima-pone-a-prueba-el-regreso-a-clases",
@@ -6224,7 +6224,7 @@ var DataStates_v9 = [
             "https://www.milenio.com/estados/clases-presenciales-colima-anuncia-regreso-30-agosto",
             "https://www.afmedios.com/educacion-colima-anuncia-regreso-a-clases-en-3-modalidades/"
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-MIC",
@@ -6552,8 +6552,8 @@ var DataStates = [
     {
         id: "MX-BCS",
         name: "Baja California Sur",
-        regresoActividadesPresenciales: "Si",
-        fechaRetorno: "13 de septiembre",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "Sin información por Huracán Nora",
         tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
@@ -6561,7 +6561,7 @@ var DataStates = [
         docentesVacunadosPorcentaje: "78.8",
         alumnosVacunados: "Sin Definir",
         nombreEstrategia: "No disponible",
-        actividadesPresenciales: "Del próximo lunes 30 de agosto, fecha que el calendario oficial marca el inicio del ciclo escolar 2021-2022, al viernes 10 de septiembre, los planteles de enseñanza básica de Baja California Sur realizarán tareas de organización con el objetivo de reanudar las clases el lunes 13 de septiembre, ya sea de manera presencial o en el modelo a distancia, informó el secretario de Educación Pública del Estado, Gustavo Rodolfo Cruz Chávez.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Del próximo lunes 30 de agosto, fecha que el calendario oficial marca el inicio del ciclo escolar 2021-2022, al viernes 10 de septiembre, los planteles de enseñanza básica de Baja California Sur realizarán tareas de organización con el objetivo de reanudar las clases el lunes 13 de septiembre, ya sea de manera presencial o en el modelo a distancia, informó el secretario de Educación Pública del Estado, Gustavo Rodolfo Cruz Chávez.",
         aforosFiltrosSanitarios: "Se capacitaron a los comités participativos de salud escolar, en cada escuela debe de existir un comité de esta naturaleza que se encargará de revisar las condiciones en las cuales se encuentra la escuela, se tendrán algunos filtros y el primero desde luego será la casa, será en el hogar donde se revise la condición de su hijo o hija y tener en claro cuáles son los síntomas COVID, el segundo filtro al entrar a la escuela y el tercero previo a entrar al salón de clases.",
         referencias: [
             "https://kidstudia.com/guia/todo-sobre-el-regreso-a-clases-en-mexico/baja-california-sur/",
@@ -6572,21 +6572,21 @@ var DataStates = [
             "http://www.sepbcs.gob.mx/contenido/boletines/2021/08/2021-08-25_Bol162.pdf"
 
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-BCN",
-        name: "Baja California Norte",
-        regresoActividadesPresenciales: "Si",
-        fechaRetorno: "30 de agosto",
-        tipoModelo: "Híbrido",
+        name: "Baja California",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "13 de septiembre",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "76.30",
         alumnosVacunados: "NO",
         nombreEstrategia: "Regreso Seguro a Clases Presenciales",
-        actividadesPresenciales: "Se preveé que 24 escuelas vuelvan a clases presenciales durante la primera semana del ciclo 2021-2022 (Lunes 30 de agosto) <br><br>La asistencia será voluntaria, gradual y escalonada. Durante septiembre, los planteles se duplicarán semanalmente, de acuerdo a la disposición de escuelas y la autorización de padres de familia. las clases serán en un modelo híbrido entre presenciales y a distancia, ya que los alumnos seleccionados asistirán tres y dos días de la semana, de manera alternada, a partir de la primera letra del apellido.   el regreso a clases será en 24 escuelas (cuatro por municipio y dos públicas y dos privadas), en la segunda semana serán 48; en la siguiente 72 y después 96, de acuerdo a la evolución y monitoreo del manejo de salud. Serán los padres de familia los que aprueben el regreso de clases presenciales de sus hijos.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Se preveé que 24 escuelas vuelvan a clases presenciales durante la primera semana del ciclo 2021-2022 (Lunes 30 de agosto) <br><br>La asistencia será voluntaria, gradual y escalonada. Durante septiembre, los planteles se duplicarán semanalmente, de acuerdo a la disposición de escuelas y la autorización de padres de familia. las clases serán en un modelo híbrido entre presenciales y a distancia, ya que los alumnos seleccionados asistirán tres y dos días de la semana, de manera alternada, a partir de la primera letra del apellido.   el regreso a clases será en 24 escuelas (cuatro por municipio y dos públicas y dos privadas), en la segunda semana serán 48; en la siguiente 72 y después 96, de acuerdo a la evolución y monitoreo del manejo de salud. Serán los padres de familia los que aprueben el regreso de clases presenciales de sus hijos.",
         aforosFiltrosSanitarios: "El regreso a las escuelas de manera presencial, se realizará de forma gradual y segura, incluyendo la realización de jornadas de limpieza previas al ingreso de los estudiantes. las escuelas de cada municipio o poblado serán divididas en áreas que incluyan un centro de salud que se encargará de dar atención a esa región en caso de ser necesario.  Los padres de familia y las escuelas deberán coordinar filtros para evitar la propagación de la enfermedad. en caso de que se detecte un caso sospechoso, el grupo será suspendido por 14 días, mientras que si se confirma un caso de COVID-19 se suspenderán las clases en todo el plantel. Las aulas tendrán un máximo de 10 personas.",
         referencias: [
             "https://www.sandiegouniontribune.com/en-espanol/noticias/bc/articulo/2021-07-26/baja-california-anuncia-regreso-a-clases-presenciales-semaforo-epidemiologico-regional-permanece-verde",
@@ -6596,7 +6596,7 @@ var DataStates = [
             "https://www.gob.mx/sep/es/articulos/boletin-sep-no-102-concluye-exitosamente-el-proceso-de-vacunacion-a-personal-docente-en-30-entidades-del-pais?idiom=es",
             "https://www.poresto.net/campeche/2021/8/15/regreso-clases-en-campeche-conoce-las-fechas-para-inscripcion-del-ciclo-escolar-2021-2022-272491.html"
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-SON",
@@ -6722,16 +6722,16 @@ var DataStates = [
     {
         id: "MX-SIN",
         name: "Sinaloa",
-        regresoActividadesPresenciales: "SI",
-        fechaRetorno: "30 de Agosto",
-        tipoModelo: "Híbrido",
+        regresoActividadesPresenciales: "NO",
+        fechaRetorno: "Sin información por huracán Nora",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "90",
         alumnosVacunados: "NO",
         nombreEstrategia: "Por decreto, emiten lineamientos para el regreso a clases en Sinaloa",
-        actividadesPresenciales: "Medios indican: El modelo para el regreso a clases de manera presencial que implementaron Jalisco y Sinaloa desde marzo pasado es un buen esquema a seguir en este regreso a clases a partir del 30 de agosto próximo, señalaron representantes de la Asociación Mexicanos Primero. <br><br> El secretario de Educación Pública y Cultura, Juan Alfonso Mejía López, explicó que en cada una de las escuelas se determinará los días en que se darán las clases presenciales y lar virtuales, es decir, los maestros pueden tener las clases en aulas por una semana y la siguiente en línea, o elegir los días de la semana para cada modalidad.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Medios indican: El modelo para el regreso a clases de manera presencial que implementaron Jalisco y Sinaloa desde marzo pasado es un buen esquema a seguir en este regreso a clases a partir del 30 de agosto próximo, señalaron representantes de la Asociación Mexicanos Primero. <br><br> El secretario de Educación Pública y Cultura, Juan Alfonso Mejía López, explicó que en cada una de las escuelas se determinará los días en que se darán las clases presenciales y lar virtuales, es decir, los maestros pueden tener las clases en aulas por una semana y la siguiente en línea, o elegir los días de la semana para cada modalidad.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.<br><br> En Sinaloa existen elementos para un regreso a clases gradual y focalizado, además de seguro para las niñas, niños y jóvenes, de acuerdo a la instrucción del gobernador Quirino Ordaz Coppel, quien fue reconocido por el presidente de la República, Andrés Manuel López Obrador, como el primer mandatario que solicitó la vacunación a las y los maestros del país para un regreso seguro a las escuelas.",
         aforosFiltrosSanitarios: "Regreso a las aulas en Sinaloa deberá atender condiciones de cada comunidad. Regreso a clases en Sinaloa será de forma gradual, focalizado y seguro. Experiencia previa de 955 Centros Comunitarios de Aprendizaje, donde se atendió a 26 mil 26 alumnos con rezago educativo. El congreso del Estado tiene la postura de “Estamos ansiosos porque los estudiantes regresen, pero la tercera ola de contagios es alarmante, ante este panorama es necesario que las autoridades actúen con prudencia: no hay condiciones del regreso seguro a las aulas",
         referencias: [
             "https://mieducacion.sepyc.gob.mx/sinaloa-coincide-con-el-presidente-andres-manuel-lopez-obrador-el-regreso-a-clases-es-por-el-convencimiento-nada-por-la-fuerza/",
@@ -6740,7 +6740,7 @@ var DataStates = [
             "https://www.elsoldemazatlan.com.mx/local/regreso-a-clases-en-sinaloa-sera-en-modalidad-mixta-7045888.html",
             "https://www.elsoldemazatlan.com.mx/local/regreso-a-clases-en-sinaloa-sera-en-modalidad-mixta-7045888.html"
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-DUR",
@@ -6960,16 +6960,16 @@ var DataStates = [
     {
         id: "MX-COL",
         name: "Colima",
-        regresoActividadesPresenciales: "Si",
-        fechaRetorno: "30 de agosto",
-        tipoModelo: "Híbrido, según sea el caso",
+        regresoActividadesPresenciales: "No",
+        fechaRetorno: "Sin información por Huracán Nora",
+        tipoModelo: "A distancia",
         reincorporacionVoluntaria: "SI",
         reincorporacionGradual: "SI",
         docentesVacunados: "SI",
         docentesVacunadosPorcentaje: "93.5",
         alumnosVacunados: "NO",
         nombreEstrategia: "Estrategia Estatal de Regreso Seguro a Clases Presenciales",
-        actividadesPresenciales: "Para el ciclo 2021-2022 se tomarán en cuenta tres modalidades para el regreso a clases presenciales. La primera modalidad  es el retorno a actividades presenciales de forma total en los planteles cuya densidad demográfica sea muy baja, como en las escuelas multigrado y comunitarias, con grupos de menos de 20 alumnos.  <br><br>La segunda modalidad es un regreso gradual y escalonado para escuelas de comunidades semi urbanas, con densidad mediana, en donde hay grupos de menos de 25 alumnos; ahí los docentes podrán dividir por orden alfabético los grupos, para que la mitad asista lunes y miércoles, la otra mitad martes y jueves, y dejar el viernes para atender casos de rezago educativo.  Y  la tercera modalidad es la mixta, para escuelas urbanas donde tienen grupos mayores de 25 alumnos; ahí será decisión del colectivo escolar determinar o combinar las actividades presenciales con la estrategia a distancia.",
+        actividadesPresenciales: "Se ha informado que pospondrán el regreso a clases presenciales debido a los efectos del paso del huracán Nora. <br><br>Para el ciclo 2021-2022 se tomarán en cuenta tres modalidades para el regreso a clases presenciales. La primera modalidad  es el retorno a actividades presenciales de forma total en los planteles cuya densidad demográfica sea muy baja, como en las escuelas multigrado y comunitarias, con grupos de menos de 20 alumnos.  <br><br>La segunda modalidad es un regreso gradual y escalonado para escuelas de comunidades semi urbanas, con densidad mediana, en donde hay grupos de menos de 25 alumnos; ahí los docentes podrán dividir por orden alfabético los grupos, para que la mitad asista lunes y miércoles, la otra mitad martes y jueves, y dejar el viernes para atender casos de rezago educativo.  Y  la tercera modalidad es la mixta, para escuelas urbanas donde tienen grupos mayores de 25 alumnos; ahí será decisión del colectivo escolar determinar o combinar las actividades presenciales con la estrategia a distancia.",
         aforosFiltrosSanitarios: "Se conformará un comité de salud en cada escuela, filtros al ingreso al plantel, abastecer de agua y jabón, uso obligatorio de mascarilla, cuidado de grupos vulnerables y cuando se detecte algún caso de coronavirus, el plantel cerraría de forma inmediata.",
         referencias: [
             "https://www.milenio.com/estados/colima-pone-a-prueba-el-regreso-a-clases",
@@ -6983,7 +6983,7 @@ var DataStates = [
             "https://www.milenio.com/estados/clases-presenciales-colima-anuncia-regreso-30-agosto",
             "https://www.afmedios.com/educacion-colima-anuncia-regreso-a-clases-en-3-modalidades/"
         ],
-        color: StateBack2School
+        color: StateNoBack2School
     },
     {
         id: "MX-MIC",
