@@ -13,7 +13,8 @@ var Corte_Informacion = [
     '18 de agosto de 2021',
     '20 de agosto de 2021',
     '25 de agosto de 2021',
-    '27 de agosto de 2021'
+    '27 de agosto de 2021',
+    '30 de agosto de 2021',
 ]
 
 var BlankData = [
@@ -7519,7 +7520,7 @@ function UpdateMap(DataStates){
     homeButton.parent = chart.zoomControl;
     homeButton.insertBefore(chart.zoomControl.plusButton);
     chart.zoomStep = 2;
-    chart.zoomControl.slider.height = 100;    
+    chart.zoomControl.slider.height = 100;
 }
 
 /*
